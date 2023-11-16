@@ -108,7 +108,7 @@ int main(void) {
 
 ---
 ### 풀이 - 오프라인 쿼리(Mo's algorithm)
-1. $\sqrt N$ (= k) 크기로 구간을 나눈다.
+1. $\sqrt{N}$ (= k) 크기로 구간을 나눈다.
 2. query를 받아서 저장한 다음 정렬을 한다.
    - [s1/k] < [s2/k]
    - [s1/k] == [s2/k] and e1 < e2
@@ -118,13 +118,13 @@ int main(void) {
 $O((N+Q)logN)$
 1. 이전 쿼리와 [s/k] 값이 같다.<br/>
    이전 쿼리를 s1,e1이라 하고 현재 쿼리를 s2,e2라 하자.<br/>
-   $|s1-s2| <= \sqrt(N)$ 이고 $|e1-e2| <= N$ 이다.<br/>
-   |s1-s2|은 O(Q)번 만큼 움직이고 |e1-e2|은 O($\sqrt(N)$) 번 만큼 움직이므로
-   모든 query들에 대해서 이전 쿼리와 [s/k]가 같은 모든 쿼리를 계산하는 시간은 $O((Q+N)\sqrt N$이다.
+   $|s1-s2| <= \sqrt{N}$ 이고 $|e1-e2| <= N$ 이다.<br/>
+   |s1-s2|은 O(Q)번 만큼 움직이고 |e1-e2|은 O($\sqrt{N}$) 번 만큼 움직이므로
+   모든 query들에 대해서 이전 쿼리와 [s/k]가 같은 모든 쿼리를 계산하는 시간은 $O((Q+N)\sqrt{N}$이다.
 2. 이전 쿼리와 [s/k] 값이 다르다.
    이전 쿼리를 s1,e1이라 하고 현재 쿼리를 s2,e2라 하자.<br/>
    $|s1-s2| <= N$ 이고 $|e1-e2| <= N$ 이다.<br/>
-   모든 query들에 대해서 해당 과정은 $\sqrt N$번 있기 때문에 총 $O(N\sqrt N)$ 이 된다.
+   모든 query들에 대해서 해당 과정은 $\sqrt{N}$번 있기 때문에 총 $O(N\sqrt{N})$ 이 된다.
 
 따라서 최종 시간복잡도는 $O((N+Q)logN)$과 같다.
 
@@ -193,7 +193,7 @@ int main(void) {
 
     cin >> N;
     A.resize(N+1);
-    sqrt_N = sqrt(N);
+    sqrt_N = sqrt{N};
     for(int i=1; i<=N; i++) cin >> A[i];
 
     cin >> M;

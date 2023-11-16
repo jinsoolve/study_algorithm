@@ -1,4 +1,4 @@
-## 백준 2837 - [롤러코스터](https://www.acmicpc.net/problem/2873)
+## [백준 2837 - 롤러코스터](https://www.acmicpc.net/problem/2873)
 
 ### 풀이
 (참고: https://www.slideshare.net/Baekjoon/baekjoon-online-judge-2873)

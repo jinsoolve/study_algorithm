@@ -108,7 +108,7 @@ int main(void) {
 
 ---
 ### 풀이 - 오프라인 쿼리(Mo's algorithm)
-1. $\sqrt(N)$ (= k) 크기로 구간을 나눈다.
+1. $\sqrtN$ (= k) 크기로 구간을 나눈다.
 2. query를 받아서 저장한 다음 정렬을 한다.
    - [s1/k] < [s2/k]
    - [s1/k] == [s2/k] and e1 < e2

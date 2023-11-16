@@ -7,3 +7,5 @@ study algorithm with C++
 ## Mo's Algorithm
 [BOJ 13547 수열과 쿼리 5](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13547)
 
+## 체스판 
+[롤러코스터](https://www.acmicpc.net/problem/2873)

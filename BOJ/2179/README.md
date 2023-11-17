@@ -10,15 +10,15 @@
 ### 주의
 같은 길이라면 (S,T)가 오름차순으로 정렬했을 때 첫번째 값으로 해야 한다.
 > input 
-> 4 
-> aa 
-> bb 
-> bc 
-> aj
+> 4 <br/>
+> aa <br/>
+> bb <br/>
+> bc <br/>
+> aj<br/>
 
-> answer
-> aa
-> aj
+> answer<br/>
+> aa<br/>
+> aj<br/>
 
 가 되어야 한다. bb,bc가 출력되지는 않는지 확인해보자.
 

@@ -22,3 +22,6 @@ study algorithm with C++
 
 ## Trie
 [BOJ 2179 - 비슷한 단어](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2179)
+
+## Dynamic Programming
+[BOJ 3631 - 줄세우기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2631) - LCS

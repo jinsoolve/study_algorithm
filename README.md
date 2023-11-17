@@ -16,3 +16,6 @@ study algorithm with C++
 
 ## 해 구성하기
 [BOJ 1201 - NMK](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1201)
+
+## 투 포인터
+[BOJ - 13144 - List of Unique Numbers](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13144)

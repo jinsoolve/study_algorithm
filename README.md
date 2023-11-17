@@ -25,3 +25,6 @@ study algorithm with C++
 
 ## Dynamic Programming
 [BOJ 3631 - 줄세우기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2631) - LCS
+
+## 이분 탐색
+[BOJ 2110 - 공유기 설치](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2110)

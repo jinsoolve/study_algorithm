@@ -2,7 +2,7 @@
 study algorithm with C++
 
 ## 머지소트 트리
-[BOJ 13547 - 수열과 쿼리 5](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13547)
+[BOJ 13547 - 수열과 쿼리 5](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13547)<br/>
 [BOJ 13537 - 수열과 쿼리 1](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13537)
 
 ## Mo's Algorithm

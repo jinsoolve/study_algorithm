@@ -3,4 +3,4 @@ project(study_algorithm)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(study_algorithm BOJ/13144/13144_twoPointer.cpp)
+add_executable(study_algorithm BOJ/2179_sort.cpp)

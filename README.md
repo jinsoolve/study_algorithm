@@ -18,4 +18,7 @@ study algorithm with C++
 [BOJ 1201 - NMK](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1201)
 
 ## 투 포인터
-[BOJ - 13144 - List of Unique Numbers](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13144)
+[BOJ 13144 - List of Unique Numbers](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13144)
+
+## Trie
+[BOJ 2179 - 비슷한 단어](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2179)

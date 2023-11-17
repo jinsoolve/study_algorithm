@@ -13,3 +13,6 @@ study algorithm with C++
 
 ## Union-Find
 [BOJ 3830 - 교수님은 기다리지 않는다](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3830)
+
+## 해 구성하기
+[BOJ 1201 - NMK]((https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1201)

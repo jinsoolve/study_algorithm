@@ -24,7 +24,8 @@ study algorithm with C++
 [BOJ 2179 - 비슷한 단어](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2179)
 
 ## Dynamic Programming
-[BOJ 3631 - 줄세우기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2631)
+[BOJ 2631 - 줄세우기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2631)  
+[BOJ 2169 - 로봇 조종하기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2169)
 
 ## 이분 탐색
 [BOJ 2110 - 공유기 설치](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2110)

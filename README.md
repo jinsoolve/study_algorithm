@@ -37,3 +37,6 @@ study algorithm with C++
 
 ## Stack
 [BOJ 22866 - 탑 보기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/22866)
+
+## 해 구성하기
+[BOJ 24337 - 가희와 탑](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/24337)

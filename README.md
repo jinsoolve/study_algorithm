@@ -44,3 +44,6 @@ study algorithm with C++
 
 ## knapsack
 [BOJ 1943 - 동전 분배](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1943)
+
+## 최단경로
+[BOJ 24042 - 횡단보도](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/24042)

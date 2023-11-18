@@ -34,3 +34,6 @@ study algorithm with C++
 
 ## 좌표 압축
 [BOJ 14658 - 하늘에서 별똥별이 빗발친다](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14658)
+
+## Stack
+[BOJ 22866 - 탑 보기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/22866)

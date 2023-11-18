@@ -27,7 +27,7 @@ using ll = long long;
 using pii = pair<int, int>;
 using ti3 = tuple<int, int, int>;
 
-int N, M, L, K;
+int N, M, Building, K;
 vector<pii> stars;
 bool cnt[101][101];
 vector<int> idx, jdx;
@@ -39,7 +39,7 @@ int main(void) {
 
     memset(cnt, 0, sizeof cnt);
 
-    cin >> N >> M >> L >> K;
+    cin >> N >> M >> Building >> K;
     for(int i=0; i<K; i++) {
         int x, y; cin >> x >> y;
         stars.emplace_back(x,y);
@@ -56,9 +56,9 @@ int main(void) {
     int ans = 0;
     for(int x=0; x<idx.size(); x++) {
         for(int y=0; y<jdx.size(); y++) {
-            int ex = upper_bound(all(idx), idx[x] + L) - idx.begin();
-            int ey = upper_bound(all(jdx), jdx[y] + L) - jdx.begin();
-            int  eres = 0;
+            int ex = upper_bound(all(idx), idx[x] + Building) - idx.begin();
+            int ey = upper_bound(all(jdx), jdx[y] + Building) - jdx.begin();
+            int  res = 0;
             for(int nx=x; nx<ex; nx++) {
                 for(int ny=y; ny<ey; ny++) {
                     res += cnt[nx][ny];

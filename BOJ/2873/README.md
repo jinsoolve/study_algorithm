@@ -48,7 +48,7 @@ int minVal = INF;
 
 int dx[] = {1,0,-1,0};
 int dy_R[] = {0,1,0,1}, dy_L[] = {0,-1,0,-1};
-char moveR[4] = {'D','R','U','R'}, moveL[4] = {'D', 'L', 'U', 'L'};
+char moveR[4] = {'D','R','U','R'}, moveL[4] = {'D', 'Building', 'U', 'Building'};
 
 int main(void) {
     ios_base::sync_with_stdio(false);
@@ -82,7 +82,7 @@ int main(void) {
                     for(;j<C; j++) cout << "R";
                 }
                 else {
-                    for(; j>1; j--) cout << "L";
+                    for(; j>1; j--) cout << "Building";
                 }
                 if(i != R) {
                     cout << "D";
@@ -128,7 +128,7 @@ int main(void) {
                     j = C;
                 }
                 else {
-                    for(int j=0; j<C-1; j++) cout << "L";
+                    for(int j=0; j<C-1; j++) cout << "Building";
                     j = 1;
                 }
             }

@@ -40,3 +40,6 @@ study algorithm with C++
 
 ## 해 구성하기
 [BOJ 24337 - 가희와 탑](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/24337)
+
+## knapsack
+[BOJ 1943 - 동전 분배](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1943)

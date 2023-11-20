@@ -48,3 +48,6 @@ study algorithm with C++
 
 ## 최단경로
 [BOJ 24042 - 횡단보도](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/24042)
+
+## 수학
+[BOJ 20188 - 등산 마니아](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/20188)

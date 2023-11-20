@@ -1,4 +1,4 @@
-## [백준 20188](https://www.acmicpc.net/problem/20188)
+## [백준 20188 - 등산 마니아](https://www.acmicpc.net/problem/20188)
 
 ### 풀이
 A와 B의 '산 정상을 거치는 가장 짧은 길'은 depth[A] + depth[B] - depth[LCS]가 된다.  

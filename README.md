@@ -12,7 +12,8 @@ study algorithm with C++
 [BOJ 2873 - 롤러코스터](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2873)
 
 ## Union-Find
-[BOJ 3830 - 교수님은 기다리지 않는다](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3830)
+[BOJ 3830 - 교수님은 기다리지 않는다](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3830)  
+[BOJ 22954 - 그래프 트리 분할](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/22954)
 
 ## 해 구성하기
 [BOJ 1201 - NMK](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1201)

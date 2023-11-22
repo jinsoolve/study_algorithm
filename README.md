@@ -55,7 +55,7 @@ study algorithm with C++
 
 ## 구현
 [BOJ 14891 - 톱니바퀴](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14891)  
-[BOJ 3111 - 구현](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3111)
+[BOJ 3111 - 검열](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3111)
 
 ### deque
 [BOJ 26094 - 더 어려운 스케줄링](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/26094)

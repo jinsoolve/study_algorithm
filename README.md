@@ -57,8 +57,8 @@ study algorithm with C++
 [BOJ 14891 - 톱니바퀴](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14891)  
 [BOJ 3111 - 검열](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3111)
 
-### deque
+## deque
 [BOJ 26094 - 더 어려운 스케줄링](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/26094)
 
-### 세그먼트 트리
+## 세그먼트 트리
 [BOJ 9345 - 디지털 비디오 디스크(DVDs)](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9345)

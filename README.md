@@ -61,4 +61,5 @@ study algorithm with C++
 [BOJ 26094 - 더 어려운 스케줄링](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/26094)
 
 ## 세그먼트 트리
-[BOJ 9345 - 디지털 비디오 디스크(DVDs)](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9345)
+[BOJ 9345 - 디지털 비디오 디스크(DVDs)](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9345)  
+[BOJ 1168 - 요세푸스 문제 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1168)

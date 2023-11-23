@@ -37,7 +37,8 @@ study algorithm with C++
 [BOJ 4179 - 불!](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/4179)
 
 ## 좌표 압축
-[BOJ 14658 - 하늘에서 별똥별이 빗발친다](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14658)
+[BOJ 14658 - 하늘에서 별똥별이 빗발친다](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14658)  
+[BOJ 3392 - 화성 지도](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3392)
 
 ## Stack
 [BOJ 22866 - 탑 보기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/22866)
@@ -70,3 +71,6 @@ study algorithm with C++
 
 ## 이분 매칭
 [BOJ 1867 - 돌멩이 제거](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1867)
+
+## Sweeping
+[BOJ 3392 - 화성 지도](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3392)

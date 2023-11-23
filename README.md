@@ -67,10 +67,14 @@ study algorithm with C++
 [BOJ 1168 - 요세푸스 문제 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1168)
 
 ## Convex Hull 
-[BOJ 9240 - 로버트 후드](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9240)
+[BOJ 9240 - 로버트 후드](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9240)  
+[BOJ 10254 고속도로](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10254)
 
 ## 이분 매칭
 [BOJ 1867 - 돌멩이 제거](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1867)
 
 ## Sweeping
 [BOJ 3392 - 화성 지도](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3392)
+
+## 회전하는 캘리퍼스
+[BOJ 10254 고속도로](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10254)

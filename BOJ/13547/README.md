@@ -206,13 +206,13 @@ int main(void) {
     sort(all(qs));
     int ldx = qs[0].s, rdx = qs[0].s;
     add(ldx,rdx);
-    for(Query q : qs) {
-        if(q.s < ldx) add(q.s, ldx-1);
-        if(ldx < q.s) remove(ldx, q.s-1);
-        if(q.e < rdx) remove(q.e+1, rdx);
-        if(rdx < q.e) add(rdx+1, q.e);
-        ldx = q.s; rdx = q.e;
-        ans[q.idx] = now;
+    for(Query convex : qs) {
+        if(convex.s < ldx) add(convex.s, ldx-1);
+        if(ldx < convex.s) remove(ldx, convex.s-1);
+        if(convex.e < rdx) remove(convex.e+1, rdx);
+        if(rdx < convex.e) add(rdx+1, convex.e);
+        ldx = convex.s; rdx = convex.e;
+        ans[convex.idx] = now;
     }
     for(int x : ans) cout << x << '\n';
 

@@ -193,10 +193,10 @@ int main(void) {
     }
     sort(all(qs));
     int previous_x = qs.front().x;
-    for(Query q : qs) {
-        ans += (q.x - previous_x) * root.tree[1];
-        root.update(1,0,mxn,q.y1, q.y2, q.diff);
-        previous_x = q.x;
+    for(Query convex : qs) {
+        ans += (convex.x - previous_x) * root.tree[1];
+        root.update(1,0,mxn,convex.y1, convex.y2, convex.diff);
+        previous_x = convex.x;
     }
     cout << ans << '\n';
 

@@ -60,19 +60,19 @@ int main(void) {
         g[a].emplace_back(b,i);
         g[b].emplace_back(a,i);
     }
-    queue<pll> q;
+    queue<pll> convex;
     dist[1] = 0;
-    q.emplace(1, 0);
-    while(!q.empty()) {
-        ll here = q.front().f, curDist = q.front().s;
-        q.pop();
+    convex.emplace(1, 0);
+    while(!convex.empty()) {
+        ll here = convex.front().f, curDist = convex.front().s;
+        convex.pop();
         if(dist[here] < curDist) continue;
         for(pll edge : g[here]) {
             ll there = edge.f, len = edge.s;
             ll nextDist = M*((dist[here]-len+M)/M) + len;
             if(dist[there] != -1 && dist[there] <= nextDist) continue;
             dist[there] = nextDist;
-            q.emplace(there, nextDist);
+            convex.emplace(there, nextDist);
         }
     }
     cout << dist[N] << '\n';

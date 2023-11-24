@@ -77,4 +77,7 @@ study algorithm with C++
 [BOJ 3392 - 화성 지도](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3392)
 
 ## 회전하는 캘리퍼스
-[BOJ 10254 고속도로](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10254)
+[BOJ 10254 - 고속도로](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10254)
+
+## 아호-코라식(Aho-Corasick) 
+[BOJ 9250 - 문자열 집합 판별](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9250)

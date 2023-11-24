@@ -25,6 +25,9 @@ study algorithm with C++
 ## Trie
 [BOJ 2179 - 비슷한 단어](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2179)
 
+## 아호-코라식(Aho-Corasick)
+[BOJ 9250 - 문자열 집합 판별](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9250)
+
 ## Dynamic Programming
 [BOJ 2631 - 줄세우기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2631)  
 [BOJ 2169 - 로봇 조종하기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2169)  
@@ -81,9 +84,6 @@ study algorithm with C++
 
 ## 회전하는 캘리퍼스
 [BOJ 10254 - 고속도로](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10254)
-
-## 아호-코라식(Aho-Corasick) 
-[BOJ 9250 - 문자열 집합 판별](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9250)
 
 ## 최대 유량(Network Flow)
 [BOJ 1420 - 학교 가지마!](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1420)

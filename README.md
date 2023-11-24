@@ -66,6 +66,9 @@ study algorithm with C++
 [BOJ 9345 - 디지털 비디오 디스크(DVDs)](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9345)  
 [BOJ 1168 - 요세푸스 문제 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1168)
 
+## 느리게 갱신되는 세그먼트 트리(lazy segment tree)
+[BOJ 17353 - 하늘에서 떨어지는 1, 2, ..., R-L+1개의 별](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/17353)
+
 ## Convex Hull 
 [BOJ 9240 - 로버트 후드](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9240)  
 [BOJ 10254 고속도로](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10254)

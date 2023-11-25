@@ -9,7 +9,8 @@ study algorithm with C++
 
 ## Mo's Algorithm
 [BOJ 13547 - 수열과 쿼리 5](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13547)  
-[BOJ 2912 - 백설공주와 난쟁이](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2912)
+[BOJ 2912 - 백설공주와 난쟁이](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2912)  
+[BOJ 8462 - 배열의 힘](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/8462)
 
 ## 체스판 
 [BOJ 2873 - 롤러코스터](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2873)

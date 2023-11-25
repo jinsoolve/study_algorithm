@@ -4,10 +4,12 @@ study algorithm with C++
 ## 머지소트 트리
 [BOJ 13547 - 수열과 쿼리 5](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13547)  
 [BOJ 13537 - 수열과 쿼리 1](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13537)  
-[BOJ 13544 - 수열과 쿼리 3](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13544)
+[BOJ 13544 - 수열과 쿼리 3](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13544)  
+[BOJ 2912 - 백설공주와 난쟁이](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2912)
 
 ## Mo's Algorithm
-[BOJ 13547 - 수열과 쿼리 5](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13547)
+[BOJ 13547 - 수열과 쿼리 5](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13547)  
+[BOJ 2912 - 백설공주와 난쟁이](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2912)
 
 ## 체스판 
 [BOJ 2873 - 롤러코스터](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2873)

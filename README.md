@@ -92,7 +92,8 @@ study algorithm with C++
 
 ## 최대 유량(Network Flow)
 [BOJ 1420 - 학교 가지마!](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1420)  
-[BOJ 3640 - 제독](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3640)
+[BOJ 3640 - 제독](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3640)  
+[BOJ 11495 - 격자 0 만들기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11495)
 
 ## 최소 공통 조상(LCA)
 [BOJ 15480 - LCA와 쿼리](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/15480)

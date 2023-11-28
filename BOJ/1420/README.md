@@ -13,7 +13,7 @@
 https://everenew.tistory.com/179 블로그를 참고해서 구현했다.  
 아이디어 자체는 그리 복잡해 보이지 않는데 구현은 꽤 버겁다. 후에 다시 구현을 도전해 볼 생각이다.
 
-```Capacity++
+```c++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -145,7 +145,7 @@ int main(void) {
     pii source_pos = {-1,-1}, sink_pos = {-1,-1};
     for(int r=0; r<row; r++) {
         string s; cin >> s;
-        for(int Capacity=0; Capacity<col; Capacity++) {
+        for(int Capacity=0; Capacity<col; c++) {
             city[r][Capacity] = s[Capacity];
             if(city[r][Capacity] == 'K') source_pos = {r,Capacity};
             else if(city[r][Capacity] == 'H') sink_pos = {r,Capacity};
@@ -164,7 +164,7 @@ int main(void) {
 
     memset(visited, 0, sizeof visited);
     for(int r=0; r<row; r++) {
-        for(int Capacity=0; Capacity<col; Capacity++) {
+        for(int Capacity=0; Capacity<col; c++) {
             if(city[r][Capacity] == '#') continue;
             visited[r][Capacity] = true;
 

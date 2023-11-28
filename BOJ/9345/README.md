@@ -6,7 +6,7 @@ Min, Max 세그먼트 트리로 풀 수 있다.
    즉, tree[node]= (l~r 선반에 진열되어 있는 DVD들 중 번호의 최소/최대)
 2. A, B 가 있는 지 확인하려면 A~B 선반의 min이 A이고, max가 B이면 모두 진열되어 있는 것이다.
 
-```Capacity++
+```C++
 #include <iostream>
 #include <algorithm>
 #include <cmath>

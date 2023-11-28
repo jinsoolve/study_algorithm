@@ -8,7 +8,7 @@
    이때 중요한 점은 올라가는 과정에서 만난 노드(샘플)들에 대해서도 모두 업데이트 시켜줘야 O(1)의 시간 내에 쿼리를 수행할 수 있다.<br/>
    만약 union-find를 사용했는데도 시간초과가 나왔다면 이 부분을 간과했을 확률이 높다.
 
-```Capacity++
+```c++
 #include <iostream>
 #include <algorithm>
 #include <cmath>

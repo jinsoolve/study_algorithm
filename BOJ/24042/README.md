@@ -14,7 +14,7 @@ a의 값이 k+(x-1)*M ~ k+x*M-1 의 값이어야 x*M+k에 B에 도착할 수 있
 ### 주의
 시간값이 x*M + K의 형태라 값이 int 범위를 넘어간다. 따라서 long long을 써줘야 한다.
 
-```Capacity++
+```c++
 #include <iostream>
 #include <algorithm>
 #include <cmath>

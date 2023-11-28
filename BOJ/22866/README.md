@@ -13,7 +13,7 @@ stack을 이용하여 푸는 문제다.
 
 오른쪽은 반대로 N -> 1 건물로 이동하면서 stack에 같은 메커니즘으로 개수를 구한다.
 
-```Capacity++
+```c++
 #include <iostream>
 #include <algorithm>
 #include <cmath>

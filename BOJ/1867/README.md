@@ -15,7 +15,7 @@ x번 행의 돌멩이들을 제거한다고 했을때, 돌멩이가 n개가 있�
 처음에는 2차원 펜윅트리로 풀려고 했으나 너무 단순하게 생각했는지 솔브를 받지 못 했다.  
 유량 알고리즘과 이분 매칭을 좀 더 익숙해질 필요를 느꼈다.
 
-```Capacity++
+```c++
 #include <iostream>
 #include <algorithm>
 #include <cmath>

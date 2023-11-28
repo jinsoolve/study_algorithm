@@ -8,7 +8,7 @@
 또한 학생들은 최대 독립 집합이 되어야 하므로 (전체 - 최대 이분매칭) 하면 정답이다.  
 참고로, 최대 독립 집합은 최소 버텍스 커버의 여집합이고, 최소 버텍스 커버는 최대 이분매칭과 같다.
 
-```Capacity++
+```C++
 #include <iostream>
 #include <algorithm>
 #include <cmath>

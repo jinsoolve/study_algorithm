@@ -15,7 +15,7 @@ convex hull 알고리즘으로 바깥쪽 나라들을 고른다.
    2. else, r을 다음 나라로 옮긴다.
 4. 3번 과정을 convex 나라의 수만큼 반복한다.
 
-```Capacity++
+```C++
 #include <iostream>
 #include <algorithm>
 #include <cmath>

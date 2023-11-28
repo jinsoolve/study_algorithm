@@ -13,7 +13,7 @@ LCA of u-v가 가장 깊은 경우 r에서 출발해서 결국 해당 노드에�
 나머지의 경우 u-v가 아무리 먼저 만나더라도 r에서 출발한 것이 아니면 의미가 없기 때문에 r까지 거슬럭 가야 한다.  
 이 경우들은 LCA of r-u, r-V 중 깊은 LCA가 답이 된다.
 
-```Capacity++
+```C++
 #include <iostream>
 #include <algorithm>
 #include <cmath>

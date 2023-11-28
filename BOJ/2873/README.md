@@ -11,7 +11,7 @@
 
 ~~구현이 조금 더럽지만 그래도 제 기능을 한다.~~
 
-```Capacity++
+```c++
 #include <iostream>
 #include <algorithm>
 #include <cmath>

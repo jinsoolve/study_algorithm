@@ -12,7 +12,7 @@ cmp 함수를 만들 때 ccw = 0 일 경우 거리를 비교해 줘야 한다.
 ### 후기
 전에 최소 거리를 찾는 문제를 분할 정복으로 풀어서 시도해보려 했으나 불가능했다.
 
-```Capacity++
+```C++
 #include <iostream>
 #include <algorithm>
 #include <cmath>

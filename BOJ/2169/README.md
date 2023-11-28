@@ -6,7 +6,7 @@ dp[r][Capacity][dir]: (r,Capacity)에서 (N,M)까지 dir방향으로 움직여�
 
 dir[1000][1000][3] 이므로 총 시간복잡도는 $10^6$ 정도로 시간제한을 통과할 수 있다.
 
-```Capacity++
+```c++
 #include <iostream>
 #include <algorithm>
 #include <cmath>

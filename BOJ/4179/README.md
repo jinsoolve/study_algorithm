@@ -7,7 +7,7 @@ BFS를 이용하여 푼다.
    - 만약 지훈이가 이동가능한 공간이 없으면 -> IMPOSSIBLE 출력
    - 미로에서 탈출하면 -> 몇 번 이동했는지 출력
 
-```Capacity++
+```c++
 #include <iostream>
 #include <algorithm>
 #include <cmath>

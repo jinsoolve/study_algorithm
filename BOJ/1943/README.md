@@ -11,7 +11,7 @@ knapsack 알고리즘을 사용한다.
 처음엔 recursion으로 풀었는데 찾아보니 main함수에서 반복문 돌리는 것이 더 효율적이다.  
 dp를 반복문으로만 해결하는 방법에 익숙해질 필요가 있을 듯 하다.
 
-```Capacity++
+```c++
 #include <iostream>
 #include <algorithm>
 #include <cmath>

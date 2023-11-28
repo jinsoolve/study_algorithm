@@ -22,7 +22,7 @@
 
 가 되어야 한다. bb,bc가 출력되지는 않는지 확인해보자.
 
-```Capacity++
+```c++
 #include <iostream>
 #include <algorithm>
 #include <cmath>

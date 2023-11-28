@@ -9,7 +9,7 @@
 ### 주의
 fail링크로 간 곳이 terminal이라면(끝 단어라면) 해당 단어도 terminal=true 처리를 해줘야 한다.
 
-```Capacity++
+```C++
 #include <iostream>
 #include <algorithm>
 #include <cmath>

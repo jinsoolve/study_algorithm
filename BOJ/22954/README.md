@@ -13,7 +13,7 @@ union-find를 이용해서 트리로 만든다.
 N <= 2를 고려 안했고,  
 (edge의 수가 N-2보다 부족한 것)과 (tree로 묶어봤을 때 트리가 3개 이상이어야 한다는 점)을 동일시했다.
 
-```Capacity++
+```c++
 #include <iostream>
 #include <algorithm>
 #include <cmath>

@@ -9,7 +9,7 @@
 Mo's algorithm을 아직 어색해 한 것이 떠올리지 못한 이유라 추측된다.  
 아래에 이분탐색을 이용한 풀이도 첨부하겠다.
 
-```Capacity++
+```C++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -61,7 +61,7 @@ void remove(int s, int E) {
     for(int i=s; i<=E; i++) cnt[V[i]]--;
 }
 int check(int M) {
-    for(int Capacity=1; Capacity<=C; Capacity++) {
+    for(int Capacity=1; Capacity<=C; c++) {
         if(cnt[Capacity] > M) return Capacity;
     }
     return -1;
@@ -115,7 +115,7 @@ int main(void) {
    else, r = m-1 이다.
 3. 탈출을 r이 벗어나는 것으로 했으니, m = (l+r)/2 + (l+r)%2 로 해줘야 한다.  
    l과 r 중 하나가 m값을 (+1이나 -1을 하지 않고) 그대로 받으므로 탈출 조건은 l<r이 된다.
-```Capacity++
+```c++
 #include <iostream>
 #include <algorithm>
 #include <cmath>

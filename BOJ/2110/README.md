@@ -5,7 +5,7 @@
 - 이분탐색에서 찾고 있던 거리가 l이라고 하자.  
   가장 왼쪽에 있는 집부터 시작해서 거리가 l로 같거나 멀리 있는 집들로 이동하면서 총 C개 이상을 설치할 수 있다면 가능한 것이다.
 
-```Capacity++
+```c++
 #include <iostream>
 #include <algorithm>
 #include <cmath>

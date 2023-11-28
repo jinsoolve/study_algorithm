@@ -3,7 +3,7 @@
 ### 풀이
 LCS를 찾아서 LCS에 포함되지 않는 아이들을 옮기면 해결되는 문제다.
 
-```Capacity++
+```c++
 #include <iostream>
 #include <algorithm>
 #include <cmath>

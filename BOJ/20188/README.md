@@ -14,7 +14,7 @@ A와 B의 '산 정상을 거치는 가장 짧은 길'은 depth[A] + depth[B] - d
 
 해당 과정을 코드로 작성하면 다음과 같다.
 
-```Capacity++
+```c++
 #include <iostream>
 #include <algorithm>
 #include <cmath>

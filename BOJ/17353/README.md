@@ -22,7 +22,7 @@ segment에 들어온 값들은 결국 등차수열의 합이다. 그 이유를 �
 따라서 등차수열의 시작값과 공차만 저장해주면 우리가 원하는 합을 구할 수 있게 된다.  
 나머지는 lazy segment의 구현이다.
 
-```Capacity++
+```C++
 #include <iostream>
 #include <algorithm>
 #include <cmath>

@@ -4,7 +4,7 @@
 머지소트 트리를 이용해서 푸는 문제다.  
 주어진 범위에서 k보다 큰 수의 개수를 이분탐색으로 찾는다.
 
-```Capacity++
+```C++
 #include <iostream>
 #include <algorithm>
 #include <cmath>

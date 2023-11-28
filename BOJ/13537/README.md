@@ -5,7 +5,7 @@
 2. 범위에 해당되는 tree[node]의 배열(오름차순이 되어 있다)애서 이분탐색을 하여 k보다 큰 값의 개수를 찾아낸다.
 3. 범위 해당되는 모든 tree[node]에 대해 구해낸 개수들을 더한다.
 
-```Capacity++
+```c++
 #include <iostream>
 #include <algorithm>
 #include <cmath>

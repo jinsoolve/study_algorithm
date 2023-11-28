@@ -81,7 +81,8 @@ study algorithm with C++
 
 ## 이분 매칭
 [BOJ 1867 - 돌멩이 제거](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1867)  
-[BOJ 11014 - 컨닝 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11014)
+[BOJ 11014 - 컨닝 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11014)  
+[BOJ 2570 - 비숍2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2570)
 
 ## Sweeping
 [BOJ 3392 - 화성 지도](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3392)

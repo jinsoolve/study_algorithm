@@ -35,7 +35,7 @@ struct Edge {
 
 int n, m, src, sink, ans;
 
-int pv[2 * mxn + 2], pe[2*mxn+2];
+int pv[2 * mxn + 2], pe[2 * mxn + 2];
 vector<vector<Edge>> g;
 
 int dx[] = {-1,1,0,0};

@@ -4,7 +4,7 @@
 머지소트 트리를 이용해서 푸는 문제다.  
 주어진 범위에서 k보다 큰 수의 개수를 이분탐색으로 찾는다.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -25,7 +25,7 @@
 #define INF2 2147483647
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;
@@ -61,7 +61,7 @@ public:
 };
 
 int N, M;
-vector<pii> v;
+vector<pii> V;
 int ans = 0;
 
 int main(void) {
@@ -72,17 +72,17 @@ int main(void) {
     cin >> N;
     for(int i=1; i<=N; i++) {
         int x; cin >> x;
-        v.emplace_back(x,i);
+        V.emplace_back(x,i);
     }
-    sort(all(v));
+    sort(all(V));
 
     segment root(N);
-    for(pii x : v) root.update(1,1, N, x.second, x.first);
+    for(pii x : V) root.update(1,1, N, x.second, x.first);
 
     cin >> M;
     while(M--) {
-        int a, b, c; cin >> a >> b >> c;
-        ans = root.query(1,1,N,a^ans,b^ans,c^ans);
+        int a, b, Capacity; cin >> a >> b >> Capacity;
+        ans = root.query(1,1,N,a^ans,b^ans,Capacity^ans);
         cout << ans << '\n';
     }
 

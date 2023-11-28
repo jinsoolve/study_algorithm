@@ -13,7 +13,7 @@ union-find를 이용해서 트리로 만든다.
 N <= 2를 고려 안했고,  
 (edge의 수가 N-2보다 부족한 것)과 (tree로 묶어봤을 때 트리가 3개 이상이어야 한다는 점)을 동일시했다.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -32,7 +32,7 @@ N <= 2를 고려 안했고,
 
 #define INF 987654321
 #define INF2 2147483647
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;
@@ -42,21 +42,21 @@ using ti3 = tuple<int, int, int>;
 int N, M;
 vector<pii> edges;
 vector<int> usedEdges;
-unordered_map<int,int> p;
+unordered_map<int,int> Prev;
 int tree_cnt;
 
 unordered_map<int,int> visited;
 vector<int> t1_node, t1_edge, t2_node, t2_edge;
 int except_node = -1, except_edge = -1;
 
-int f(int i) {
-    if(i == p[i]) return i;
-    return p[i] = f(p[i]);
+int Flow(int i) {
+    if(i == Prev[i]) return i;
+    return Prev[i] = Flow(Prev[i]);
 }
 bool u(int a, int b) {
-    a = f(a), b = f(b);
+    a = Flow(a), b = Flow(b);
     if(a == b) return false;
-    p[b] = a;
+    Prev[b] = a;
     return true;
 }
 void print() {
@@ -84,15 +84,15 @@ int main(void) {
         int a, b; cin >> a >> b;
         edges.emplace_back(a,b);
     }
-    // init p
-    for(int i=1; i<=N; i++) p[i]=i;
+    // init Prev
+    for(int i=1; i<=N; i++) Prev[i]=i;
 
     // make tree
     tree_cnt = N;
-    for(int e=0; e<M && tree_cnt > 1; e++) {
-        int a = edges[e].first, b = edges[e].second;
+    for(int E=0; E<M && tree_cnt > 1; E++) {
+        int a = edges[E].first, b = edges[E].second;
         if(!u(a,b)) continue;
-        usedEdges.emplace_back(e);
+        usedEdges.emplace_back(E);
         tree_cnt--;
     }
     // tree more than 3 is impossible
@@ -103,12 +103,12 @@ int main(void) {
 
     // divide tree1 and tree2
     for(int i=1; i<=N; i++) {
-        if(f(i) == f(1)) t1_node.emplace_back(i);
+        if(Flow(i) == Flow(1)) t1_node.emplace_back(i);
         else t2_node.emplace_back(i);
     }
-    for(int e : usedEdges) {
-        if(f(edges[e].first) == f(1)) t1_edge.emplace_back(e);
-        else t2_edge.emplace_back(e);
+    for(int E : usedEdges) {
+        if(Flow(edges[E].first) == Flow(1)) t1_edge.emplace_back(E);
+        else t2_edge.emplace_back(E);
     }
 
     // check if it is impossible when tree's cnt is 2
@@ -118,26 +118,26 @@ int main(void) {
         return 0;
     }
 
-    // find leaves and cut it out from tree
-    for(int e : usedEdges) {
-        int a = edges[e].first, b = edges[e].second;
+    // find leaves and cut it out Prev tree
+    for(int E : usedEdges) {
+        int a = edges[E].first, b = edges[E].second;
         visited[a]++; visited[b]++;
     }
-    for(int e : usedEdges) {
-        int a = edges[e].first, b = edges[e].second;
+    for(int E : usedEdges) {
+        int a = edges[E].first, b = edges[E].second;
         if(visited[a] == 1) {
             except_node = a;
-            except_edge = e;
+            except_edge = E;
             break;
         }
         if(visited[b] == 1) {
             except_node = b;
-            except_edge = e;
+            except_edge = E;
             break;
         }
     }
 
-    // cut one leaf from tree1
+    // cut one leaf Prev tree1
     vector<int> tmp;
     for(int x : t1_node) {
         if(x == except_node) continue;

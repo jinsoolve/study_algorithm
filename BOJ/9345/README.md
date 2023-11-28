@@ -6,7 +6,7 @@ Min, Max 세그먼트 트리로 풀 수 있다.
    즉, tree[node]= (l~r 선반에 진열되어 있는 DVD들 중 번호의 최소/최대)
 2. A, B 가 있는 지 확인하려면 A~B 선반의 min이 A이고, max가 B이면 모두 진열되어 있는 것이다.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -27,7 +27,7 @@ Min, Max 세그먼트 트리로 풀 수 있다.
 #define INF2 2147483647
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;
@@ -95,7 +95,7 @@ public:
     }
 };
 
-vector<ll> v; // v[선반번호]= dvd번호
+vector<ll> V; // V[선반번호]= dvd번호
 int main(void) {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -106,14 +106,14 @@ int main(void) {
         int N, K; cin >> N >> K;
         segment root(N);
         root.init(1,0,N-1);
-        v.resize(N);
-        for(ll i=0; i<N; i++) v[i] = i;
+        V.resize(N);
+        for(ll i=0; i<N; i++) V[i] = i;
         while(K--) {
             int Q, A, B; cin >> Q >> A >> B;
             if(Q == 0) {
-                root.update(1,0,N-1,A,v[B]);
-                root.update(1,0,N-1,B,v[A]);
-                swap(v[A], v[B]);
+                root.update(1,0,N-1,A,V[B]);
+                root.update(1,0,N-1,B,V[A]);
+                swap(V[A], V[B]);
             }
             else {
                 if(root.query(1,0,N-1,A,B)) cout << "YES\n";

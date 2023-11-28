@@ -15,7 +15,7 @@ convex hull 알고리즘으로 바깥쪽 나라들을 고른다.
    2. else, r을 다음 나라로 옮긴다.
 4. 3번 과정을 convex 나라의 수만큼 반복한다.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -36,7 +36,7 @@ convex hull 알고리즘으로 바깥쪽 나라들을 고른다.
 #define INF2 2147483647
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;
@@ -51,7 +51,7 @@ struct Vector {
     ll cross(Vector other) {
         return x*other.y - y*other.x;
     }
-    ll dist(Vector other) {
+    ll minDist(Vector other) {
         return pow(x-other.x,2) + pow(y-other.y,2);
     }
     Vector operator-(Vector other) const {
@@ -73,7 +73,7 @@ vector<Vector> convex;
 bool cmp(Vector a, Vector b) {
     ll res = (a - cities.front()).cross(b - cities.front());
     if(res != 0) return res > 0;
-    return cities.front().dist(a) < cities.front().dist(b);
+    return cities.front().minDist(a) < cities.front().minDist(b);
 }
 
 void Graham_Scan() {
@@ -99,15 +99,15 @@ void Rotating_Calipers() {
     }
 
     int L = l, R = r;
-    ll maxDist = convex[l].dist(convex[r]);
+    ll maxDist = convex[l].minDist(convex[r]);
     for(int _=0; _<sz; _++) {
         int nl = (l+1)%sz, nr = (r+1)%sz;
         ll ccw = (convex[nl] - convex[l]).cross(convex[nr] - convex[r]);
         if(ccw < 0) l = (l+1)%sz;
         else r = (r+1)%sz;
-        ll dist = convex[l].dist(convex[r]);
-        if(maxDist < dist) {
-            maxDist = dist;
+        ll minDist = convex[l].minDist(convex[r]);
+        if(maxDist < minDist) {
+            maxDist = minDist;
             L = l, R = r;
         }
     }

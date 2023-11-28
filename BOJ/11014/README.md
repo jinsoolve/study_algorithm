@@ -8,7 +8,7 @@
 또한 학생들은 최대 독립 집합이 되어야 하므로 (전체 - 최대 이분매칭) 하면 정답이다.  
 참고로, 최대 독립 집합은 최소 버텍스 커버의 여집합이고, 최소 버텍스 커버는 최대 이분매칭과 같다.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -29,7 +29,7 @@
 #define INF2 2147483647
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;
@@ -43,7 +43,7 @@ char classroom[80][80];
 int dx[] = {-1,-1,0,0};
 int dy[] = {-1,1,-1,1};
 bool visited[MXN];
-int parent[MXN];
+int Prev[MXN];
 vector<vector<int>> g;
 
 inline bool out_of_bound(int x, int y) { return x<0 || x>=N || y<0 || y>=M; }
@@ -52,12 +52,12 @@ void makeBigraph() {
     for(int x=0; x<N; x++) {
         for(int y=0; y<M; y++) {
             if(classroom[x][y] == 'x') continue;
-            for(int d=0; d<4; d++) {
-                int nx = x+dx[d], ny = y+dy[d];
+            for(int minDist=0; minDist<4; minDist++) {
+                int nx = x+dx[minDist], ny = y+dy[minDist];
                 if(out_of_bound(nx,ny) || classroom[nx][ny] == 'x') continue;
-                int u = nodeNum(x,y), v = nodeNum(nx,ny);
-                g[u].emplace_back(v);
-                g[v].emplace_back(u);
+                int u = nodeNum(x,y), V = nodeNum(nx,ny);
+                g[u].emplace_back(V);
+                g[V].emplace_back(u);
             }
         }
     }
@@ -66,15 +66,15 @@ bool dfs(int here) {
     for(int there : g[here]) {
         if(visited[there]) continue;
         visited[there] = true;
-        if(parent[there] == -1 || dfs(parent[there])) {
-            parent[there] = here;
+        if(Prev[there] == -1 || dfs(Prev[there])) {
+            Prev[there] = here;
             return true;
         }
     }
     return false;
 }
 int bipartite() {
-    memset(parent, -1, sizeof parent);
+    memset(Prev, -1, sizeof Prev);
     int ret = 0;
     for(int here=0; here<N*M; here++) {
         if((here%M)%2 == 1) continue;

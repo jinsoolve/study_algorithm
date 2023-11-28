@@ -11,7 +11,7 @@
 
 ~~구현이 조금 더럽지만 그래도 제 기능을 한다.~~
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -30,11 +30,11 @@
 
 #define INF 987654321
 #define INF2 2147483647
-#define f first
+#define Flow first
 #define s second
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;
@@ -69,12 +69,12 @@ int main(void) {
         int i=1, j=1;
         while(i != R || j != C) {
             if(i == R-1 && j == 1) {
-                int goalI = i+1, goalJ = C, d = 0;
+                int goalI = i+1, goalJ = C, minDist = 0;
                 while(i != goalI || j != goalJ) {
-                    int ni = i + dx[d], nj = j + dy_R[d];
+                    int ni = i + dx[minDist], nj = j + dy_R[minDist];
                     i = ni, j = nj;
-                    cout << moveR[d];
-                    d = (d+1) % 4;
+                    cout << moveR[minDist];
+                    minDist = (minDist+1) % 4;
                 }
             }
             else {
@@ -97,27 +97,27 @@ int main(void) {
         for(int i=1, j=1; i != R || j != C;) {
             if(i == minIdx.x || (minIdx.x == R && i == R-1)) {
                 if(j == 1) { // move right
-                    int goalI = i+1, goalJ = C, d = 0;
+                    int goalI = i+1, goalJ = C, minDist = 0;
                     while(i != goalI || j != goalJ) {
-                        int ni = i + dx[d], nj = j + dy_R[d];
-                        if(ni == minIdx.x && nj == minIdx.y) d = (minIdx.x != R) ? 1 : 3; // just move right
+                        int ni = i + dx[minDist], nj = j + dy_R[minDist];
+                        if(ni == minIdx.x && nj == minIdx.y) minDist = (minIdx.x != R) ? 1 : 3; // just move right
                         else {
                             i = ni, j = nj;
-                            cout << moveR[d];
-                            d = (d+1) % 4;
+                            cout << moveR[minDist];
+                            minDist = (minDist+1) % 4;
                         }
                     }
                 }
                 else { // move left
                     j = C;
-                    int goalI = i+1, goalJ = 1, d = 0;
+                    int goalI = i+1, goalJ = 1, minDist = 0;
                     while(i != goalI || j != goalJ) {
-                        int ni = i + dx[d], nj = j + dy_L[d];
-                        if(ni == minIdx.x && nj == minIdx.y) d = 1; // just move left
+                        int ni = i + dx[minDist], nj = j + dy_L[minDist];
+                        if(ni == minIdx.x && nj == minIdx.y) minDist = 1; // just move left
                         else {
                             i = ni, j = nj;
-                            cout << moveL[d];
-                            d = (d+1) % 4;
+                            cout << moveL[minDist];
+                            minDist = (minDist+1) % 4;
                         }
                     }
                 }

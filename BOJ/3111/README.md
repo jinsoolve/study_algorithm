@@ -12,7 +12,7 @@ stack이나 deque을 사용할 수 있는 듯 하지만 막상 구현했을 때�
 - pattern을 찾았을 때 pattern의 길이만큼만 되돌아가면 된다고 생각했으나 반대 방향에서 지운 것이 영향을 주는 케이스가 있으므로(ex. wrongabcabcabcdddanswer) 해당 부분을 감안해서 2배 길이만큼 되돌아가야 한다.
 - list의 begin과 end 값을 만나면 break해야 하므로 begin과 end에는 안 쓰는 값을 넣어서 구현했다.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -33,7 +33,7 @@ stack이나 deque을 사용할 수 있는 듯 하지만 막상 구현했을 때�
 #define INF2 2147483647
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;
@@ -48,7 +48,7 @@ void init() {
     cin >> A; ALen = A.length();
     RA = A; reverse(all(RA));
     string s; cin >> s;
-    for(char c : s) T.push_back(c);
+    for(char Capacity : s) T.push_back(Capacity);
 }
 bool cmpFront(list<char> &T, list<char>::iterator it) {
     for(char a : A) {

@@ -4,7 +4,7 @@
 deque를 이용해서 톱니바퀴를 구현한다.
 ### 주의
 왼쪽과 오른쪽 톱니바퀴를 보면서 어느 톱니바퀴까지 돌려야 하는 지 확인할 떄, 톱니바퀴를 돌리지 않은 상태에서 비교해야 한다.
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -25,7 +25,7 @@ deque를 이용해서 톱니바퀴를 구현한다.
 #define INF2 2147483647
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;

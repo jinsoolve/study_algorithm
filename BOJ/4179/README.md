@@ -7,7 +7,7 @@ BFS를 이용하여 푼다.
    - 만약 지훈이가 이동가능한 공간이 없으면 -> IMPOSSIBLE 출력
    - 미로에서 탈출하면 -> 몇 번 이동했는지 출력
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -26,11 +26,11 @@ BFS를 이용하여 푼다.
 
 #define INF 987654321
 #define INF2 2147483647
-#define f first
+#define Flow first
 #define s second
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;
@@ -53,8 +53,8 @@ void fire_spreads() {
     while(sz--) {
         int x = fires.front().x, y = fires.front().y;
         fires.pop();
-        for(int d=0; d<4; d++) {
-            int nx = x+dx[d], ny = y+dy[d];
+        for(int minDist=0; minDist<4; minDist++) {
+            int nx = x+dx[minDist], ny = y+dy[minDist];
             if(out_of_bound(nx, ny) || !board[nx][ny]) continue;
             board[nx][ny] = false;
             fires.emplace(nx,ny);
@@ -67,8 +67,8 @@ int jihuns_moves() {
     while(sz--) {
         int x = jihuns.front().x, y = jihuns.front().y;
         jihuns.pop();
-        for(int d=0; d<4; d++) {
-            int nx = x+dx[d], ny = y+dy[d];
+        for(int minDist=0; minDist<4; minDist++) {
+            int nx = x+dx[minDist], ny = y+dy[minDist];
             if(out_of_bound(nx,ny)) return 1;
             if(!board[nx][ny] || visited[nx][ny]) continue;
             visited[nx][ny] = true;
@@ -99,14 +99,14 @@ int main(void) {
     cin >> R >> C;
     for(int i=0; i<R; i++) {
         for(int j=0; j<C; j++) {
-            char c; cin >> c;
-            if(c == 'F') fires.emplace(i,j);
-            if(c == 'J') {
+            char Capacity; cin >> Capacity;
+            if(Capacity == 'F') fires.emplace(i,j);
+            if(Capacity == 'J') {
                 visited[i][j] = true;
                 jihuns.emplace(i,j);
             }
 
-            if(c == '.' || c == 'J') board[i][j] = true;
+            if(Capacity == '.' || Capacity == 'J') board[i][j] = true;
         }
     }
 

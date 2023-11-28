@@ -9,7 +9,7 @@
 처음엔 고양이를 차례대로 보고 있다고 가정할 때 앞의 고양이 리본만 신경쓰면 된다고 생각해서 2개의 리본만 저장했다.  
 하지만 이 방법은 만약 최적의 해가 양 옆의 고양이로 인해 3번째로 만족감을 주는 리본을 필요로 할 경우를 간과했다.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -30,7 +30,7 @@
 #define INF2 2147483647
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;

@@ -22,7 +22,7 @@
 
 가 되어야 한다. bb,bc가 출력되지는 않는지 확인해보자.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -41,11 +41,11 @@
 
 #define INF 987654321
 #define INF2 2147483647
-#define f first
+#define Flow first
 #define s second
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;
@@ -72,7 +72,7 @@ public:
 
 int N;
 
-vector<string> v;
+vector<string> V;
 
 int main(void) {
     ios_base::sync_with_stdio(false);
@@ -83,13 +83,13 @@ int main(void) {
     Trie *root = new Trie();
     for(int i=0; i<N; i++) {
         string s; cin >> s;
-        v.emplace_back(s);
+        V.emplace_back(s);
         root->insert(s.c_str(), i, 0);
     }
     for(int l=100; l>=0; l--) {
         if(logVec[l].empty()) continue;
         sort(all(logVec[l]));
-        cout << v[logVec[l][0].f] << '\n' << v[logVec[l][0].s] << '\n';
+        cout << V[logVec[l][0].Flow] << '\n' << V[logVec[l][0].s] << '\n';
         break;
     }
 

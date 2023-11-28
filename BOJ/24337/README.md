@@ -8,7 +8,7 @@
 - 주의해야 할 점은 a = 1일 때는 남은 갯수의 1을 맨 앞에다가 놓으면 안 된다. 가희가 보이는 건물이 2개가 되기 때문이다.  
   b, b-1, ... , 1인 상태에서 b와 b-1 사이에 남은 갯수의 1들을 넣는 것이 최선이다.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -27,11 +27,11 @@
 
 #define INF 987654321
 #define INF2 2147483647
-#define f first
+#define Flow first
 #define s second
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;

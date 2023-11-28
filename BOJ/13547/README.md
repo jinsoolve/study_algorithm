@@ -3,7 +3,7 @@
 ### 풀이 - 온라인 쿼리 (머지소트 트리)
 1. 자신보다 다음 인덱스에서 자신과 동일하면서 가장 가까운 수의 인덱스를 넣는다.<br/>
    [1,1,2,1,3] -> [2,4,6,6,6] 이 된다.<br/>
-   배열이 A[s\~e]라고 할 때, e보다 큰 값의 개수가 서로 다른 수의 개수가 된다.<br/>
+   배열이 A[s\~E]라고 할 때, e보다 큰 값의 개수가 서로 다른 수의 개수가 된다.<br/>
    위 예시는 A[1\~5]이므로 5보다 큰 수의 개수가 3이다.
 
 2. 바뀐 배열을 머지소트 트리에 넣는다.
@@ -30,11 +30,11 @@ $O(NlogN + Mlog^2N)$
 
 #define INF 987654321
 #define INF2 2147483647
-#define f first
+#define Flow first
 #define s second
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;
@@ -94,7 +94,7 @@ int main(void) {
 
     segment root(N);
     for(pii x : nextIdx) {
-        root.update(1,1,N,x.s,x.f);
+        root.update(1,1,N,x.s,x.Flow);
     }
 
     cin >> M;
@@ -147,11 +147,11 @@ $O((N+Q)logN)$
 
 #define INF 987654321
 #define INF2 2147483647
-#define f first
+#define Flow first
 #define s second
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;
@@ -160,10 +160,10 @@ using ti3 = tuple<int, int, int>;
 
 int sqrt_N;
 struct Query {
-    int idx, s, e;
+    int idx, s, E;
 
     bool operator < (Query other) const {
-        if(s/sqrt_N == other.s/sqrt_N) return e < other.e;
+        if(s/sqrt_N == other.s/sqrt_N) return E < other.E;
         return s < other.s;
     }
 };
@@ -175,13 +175,13 @@ int cnt[1010101];
 int now = 0;
 vector<int> ans;
 
-void add(int s, int e) {
-    for(int i=s; i<=e; i++) {
+void add(int s, int E) {
+    for(int i=s; i<=E; i++) {
         if(cnt[A[i]]++ == 0) now++;
     }
 }
-void remove(int s, int e) {
-    for(int i=s; i<=e; i++) {
+void remove(int s, int E) {
+    for(int i=s; i<=E; i++) {
         if(--cnt[A[i]] == 0) now--;
     }
 }
@@ -199,8 +199,8 @@ int main(void) {
     cin >> M;
     ans.resize(M);
     for(int i=0; i<M; i++) {
-        int s, e; cin >> s >> e;
-        qs.push_back({i,s,e});
+        int s, E; cin >> s >> E;
+        qs.push_back({i,s,E});
     }
 
     sort(all(qs));
@@ -209,9 +209,9 @@ int main(void) {
     for(Query convex : qs) {
         if(convex.s < ldx) add(convex.s, ldx-1);
         if(ldx < convex.s) remove(ldx, convex.s-1);
-        if(convex.e < rdx) remove(convex.e+1, rdx);
-        if(rdx < convex.e) add(rdx+1, convex.e);
-        ldx = convex.s; rdx = convex.e;
+        if(convex.E < rdx) remove(convex.E+1, rdx);
+        if(rdx < convex.E) add(rdx+1, convex.E);
+        ldx = convex.s; rdx = convex.E;
         ans[convex.idx] = now;
     }
     for(int x : ans) cout << x << '\n';

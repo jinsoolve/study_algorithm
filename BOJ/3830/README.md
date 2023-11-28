@@ -8,7 +8,7 @@
    이때 중요한 점은 올라가는 과정에서 만난 노드(샘플)들에 대해서도 모두 업데이트 시켜줘야 O(1)의 시간 내에 쿼리를 수행할 수 있다.<br/>
    만약 union-find를 사용했는데도 시간초과가 나왔다면 이 부분을 간과했을 확률이 높다.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -27,11 +27,11 @@
 
 #define INF 987654321
 #define INF2 2147483647
-#define f first
+#define Flow first
 #define s second
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;
@@ -40,21 +40,21 @@ using ti3 = tuple<int, int, int>;
 
 int N, M;
 vector<pii> g[101010];
-pii parent[101010]; // first: sample number, second: difference
+pii Prev[101010]; // first: sample number, second: difference
 
 pii Find(int here) {
-    if(here == parent[here].f) return parent[here] = pii(here, 0);
-    pii update = Find(parent[here].f);
-    return parent[here] = pii(update.f, parent[here].s + update.s);
+    if(here == Prev[here].Flow) return Prev[here] = pii(here, 0);
+    pii update = Find(Prev[here].Flow);
+    return Prev[here] = pii(update.Flow, Prev[here].s + update.s);
 }
 void Union(int a, int b, int w) {
     Find(a);
     Find(b);
-    int moveA = parent[a].s, moveB = parent[b].s;
-    a = parent[a].f, b = parent[b].f;
+    int moveA = Prev[a].s, moveB = Prev[b].s;
+    a = Prev[a].Flow, b = Prev[b].Flow;
     if(a == b) return;
     w = w + moveA - moveB;
-    parent[b] = pii(a,w);
+    Prev[b] = pii(a,w);
 }
 
 int main(void) {
@@ -66,7 +66,7 @@ int main(void) {
         if(N==0 && M==0) break;
         // init
         for(int i=1; i<=N; i++) vector<pii>().swap(g[i]);
-        for(int a=1; a<=N; a++) parent[a] = pii(a,0);
+        for(int a=1; a<=N; a++) Prev[a] = pii(a,0);
 
         while(M--) {
             char cmd; int a, b, w;
@@ -79,8 +79,8 @@ int main(void) {
                 cin >> a >> b;
                 Find(a);
                 Find(b);
-                int moveA = parent[a].s, moveB = parent[b].s;
-                a = parent[a].f, b = parent[b].f;
+                int moveA = Prev[a].s, moveB = Prev[b].s;
+                a = Prev[a].Flow, b = Prev[b].Flow;
                 if(a != b) cout << "UNKNOWN\n";
                 else cout << moveB-moveA << '\n';
             }

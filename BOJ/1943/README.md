@@ -11,7 +11,7 @@ knapsack 알고리즘을 사용한다.
 처음엔 recursion으로 풀었는데 찾아보니 main함수에서 반복문 돌리는 것이 더 효율적이다.  
 dp를 반복문으로만 해결하는 방법에 익숙해질 필요가 있을 듯 하다.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -30,11 +30,11 @@ dp를 반복문으로만 해결하는 방법에 익숙해질 필요가 있을 �
 
 #define INF 987654321
 #define INF2 2147483647
-#define f first
+#define Flow first
 #define s second
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;
@@ -66,11 +66,11 @@ int main(void) {
         }
         dp[0] = true;
         for(int idx=0; idx<N; idx++) {
-            for(int amount = total/2; amount >= coin[idx].f; amount--) {
-                if(dp[amount - coin[idx].f]) {
+            for(int amount = total/2; amount >= coin[idx].Flow; amount--) {
+                if(dp[amount - coin[idx].Flow]) {
                     for(int cnt = 0; cnt < coin[idx].s; cnt++) {
-                        if(amount + cnt*coin[idx].f > total/2) break;
-                        dp[amount + cnt*coin[idx].f] = true;
+                        if(amount + cnt*coin[idx].Flow > total/2) break;
+                        dp[amount + cnt*coin[idx].Flow] = true;
                     }
                 }
             }

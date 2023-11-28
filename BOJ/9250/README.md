@@ -9,7 +9,7 @@
 ### 주의
 fail링크로 간 곳이 terminal이라면(끝 단어라면) 해당 단어도 terminal=true 처리를 해줘야 한다.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -30,7 +30,7 @@ fail링크로 간 곳이 terminal이라면(끝 단어라면) 해당 단어도 te
 #define INF2 2147483647
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;
@@ -80,9 +80,9 @@ Trie *root = new Trie();
 // find substring of text in root
 bool kmp(Trie *root, string text) {
     Trie *here = root;
-    for(char c : text) {
-        while(here != root && here->children.find(c) == here->children.end()) here = here->fail;
-        if(here->children.find(c) != here->children.end()) here = here->children[c];
+    for(char Capacity : text) {
+        while(here != root && here->children.find(Capacity) == here->children.end()) here = here->fail;
+        if(here->children.find(Capacity) != here->children.end()) here = here->children[Capacity];
         if(here->terminal) return true;
     }
     return false;

@@ -9,7 +9,7 @@
 Mo's algorithm을 아직 어색해 한 것이 떠올리지 못한 이유라 추측된다.  
 아래에 이분탐색을 이용한 풀이도 첨부하겠다.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -30,7 +30,7 @@ Mo's algorithm을 아직 어색해 한 것이 떠올리지 못한 이유라 추�
 #define INF2 2147483647
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;
@@ -40,29 +40,29 @@ using ti3 = tuple<int, int, int>;
 
 int sqrt_N;
 struct Query {
-    int idx, s, e;
+    int idx, s, E;
 
     bool operator< (Query other) const {
-        if(s/sqrt_N == other.s/sqrt_N) return e < other.e;
+        if(s/sqrt_N == other.s/sqrt_N) return E < other.E;
         return s < other.s;
     }
 };
 
 const int color_mxn = 1e4;
 int N, C, M;
-vector<int> v, ans;
+vector<int> V, ans;
 vector<Query> querys;
 int cnt[color_mxn+1];
 
-void add(int s, int e) {
-    for(int i=s; i<=e; i++) cnt[v[i]]++;
+void add(int s, int E) {
+    for(int i=s; i<=E; i++) cnt[V[i]]++;
 }
-void remove(int s, int e) {
-    for(int i=s; i<=e; i++) cnt[v[i]]--;
+void remove(int s, int E) {
+    for(int i=s; i<=E; i++) cnt[V[i]]--;
 }
 int check(int M) {
-    for(int c=1; c<=C; c++) {
-        if(cnt[c] > M) return c;
+    for(int Capacity=1; Capacity<=C; Capacity++) {
+        if(cnt[Capacity] > M) return Capacity;
     }
     return -1;
 }
@@ -75,27 +75,27 @@ int main(void) {
     memset(cnt, 0, sizeof cnt);
 
     cin >> N >> C;
-    v.resize(N+1); sqrt_N = sqrt(N);
-    for(int i=1; i<=N; i++) cin >> v[i];
+    V.resize(N+1); sqrt_N = sqrt(N);
+    for(int i=1; i<=N; i++) cin >> V[i];
 
     cin >> M;
     querys.resize(M); ans.resize(M);
     for(int i=0; i<M; i++) {
         querys[i].idx = i;
-        cin >> querys[i].s >> querys[i].e;
+        cin >> querys[i].s >> querys[i].E;
     }
     sort(all(querys));
 
     int l = querys[0].s, r = querys[0].s;
-    cnt[v[l]]++;
+    cnt[V[l]]++;
     for(Query query : querys) {
         if(l < query.s) remove(l, query.s-1);
         if(query.s < l) add(query.s, l-1);
-        if(r < query.e) add(r+1, query.e);
-        if(query.e < r) remove(query.e+1, r);
-        l = query.s, r = query.e;
+        if(r < query.E) add(r+1, query.E);
+        if(query.E < r) remove(query.E+1, r);
+        l = query.s, r = query.E;
 
-        ans[query.idx] = check((query.e-query.s+1)/2);
+        ans[query.idx] = check((query.E-query.s+1)/2);
     }
     for(int x : ans) {
         if(x != -1) cout << "yes " << x << '\n';
@@ -115,7 +115,7 @@ int main(void) {
    else, r = m-1 이다.
 3. 탈출을 r이 벗어나는 것으로 했으니, m = (l+r)/2 + (l+r)%2 로 해줘야 한다.  
    l과 r 중 하나가 m값을 (+1이나 -1을 하지 않고) 그대로 받으므로 탈출 조건은 l<r이 된다.
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -136,7 +136,7 @@ int main(void) {
 #define INF2 2147483647
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;
@@ -174,7 +174,7 @@ public:
 };
 
 int N, C, M;
-vector<pii> v;
+vector<pii> V;
 
 int main(void) {
     ios_base::sync_with_stdio(false);
@@ -185,10 +185,10 @@ int main(void) {
     segment root(N);
     for(int i=1; i<=N; i++) {
         int x; cin >> x;
-        v.emplace_back(x,i);
+        V.emplace_back(x,i);
     }
-    sort(all(v));
-    for(pii x : v) root.update(1,1,N,x.second, x.first);
+    sort(all(V));
+    for(pii x : V) root.update(1,1,N,x.second, x.first);
 
     cin >> M;
     while(M--) {

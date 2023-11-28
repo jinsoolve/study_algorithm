@@ -7,7 +7,7 @@
 tree[node]에는 다음의 값을 저장한다.
 - sum = 합
 - sv = 등차수열의 시작값
-- d = 등차수열의 공차
+- minDist = 등차수열의 공차
 
 segment에 들어온 값들은 결국 등차수열의 합이다. 그 이유를 살펴보자.  
 
@@ -22,7 +22,7 @@ segment에 들어온 값들은 결국 등차수열의 합이다. 그 이유를 �
 따라서 등차수열의 시작값과 공차만 저장해주면 우리가 원하는 합을 구할 수 있게 된다.  
 나머지는 lazy segment의 구현이다.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -43,7 +43,7 @@ segment에 들어온 값들은 결국 등차수열의 합이다. 그 이유를 �
 #define INF2 2147483647
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;
@@ -52,7 +52,7 @@ using pll = pair<ll, ll>;
 using ti3 = tuple<int, int, int>;
 
 struct lazy {
-    ll sum, sv, d;
+    ll sum, sv, minDist;
 };
 
 class segment {
@@ -73,13 +73,13 @@ public:
         return tree[node].sum = init(a, 2*node, start, (start+end)/2) + init(a, 2*node+1, (start+end)/2+1, end);
     }
     void update_lazy(int node, int start, int end) {
-        if(tree[node].d == 0) return;
-        tree[node].sum += tree[node].sv * (end-start+1) + tree[node].d * (end-start) * (end-start+1) / 2;
+        if(tree[node].minDist == 0) return;
+        tree[node].sum += tree[node].sv * (end-start+1) + tree[node].minDist * (end-start) * (end-start+1) / 2;
         if(start != end) {
-            tree[2*node].sv += tree[node].sv; tree[2*node].d += tree[node].d;
-            tree[2*node+1].sv += tree[node].sv + ((start+end)/2+1 - start) * tree[node].d; tree[2*node+1].d += tree[node].d;
+            tree[2*node].sv += tree[node].sv; tree[2*node].minDist += tree[node].minDist;
+            tree[2*node+1].sv += tree[node].sv + ((start+end)/2+1 - start) * tree[node].minDist; tree[2*node+1].minDist += tree[node].minDist;
         }
-        tree[node].sv = tree[node].d = 0;
+        tree[node].sv = tree[node].minDist = 0;
     }
     ll sum(int node, int start, int end, int idx) {
         update_lazy(node, start, end);
@@ -93,7 +93,7 @@ public:
         if(right < start || end < left) return;
         if(left <= start && end <= right) {
             tree[node].sv += max(start, left) - left + 1;
-            tree[node].d++;
+            tree[node].minDist++;
             update_lazy(node, start, end);
             return;
         }
@@ -104,7 +104,7 @@ public:
 };
 
 int N, Q;
-vector<ll> v;
+vector<ll> V;
 
 int main(void) {
     ios_base::sync_with_stdio(false);
@@ -112,10 +112,10 @@ int main(void) {
     cout.tie(nullptr);
 
     cin >> N;
-    v.resize(N+1);
-    for(int i=1; i<=N; i++) cin >> v[i];
+    V.resize(N+1);
+    for(int i=1; i<=N; i++) cin >> V[i];
     segment root(N);
-    root.init(v, 1,1,N);
+    root.init(V, 1,1,N);
 
     cin >> Q;
     while(Q--) {

@@ -5,7 +5,7 @@
 2. 범위에 해당되는 tree[node]의 배열(오름차순이 되어 있다)애서 이분탐색을 하여 k보다 큰 값의 개수를 찾아낸다.
 3. 범위 해당되는 모든 tree[node]에 대해 구해낸 개수들을 더한다.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -24,11 +24,11 @@
 
 #define INF 987654321
 #define INF2 2147483647
-#define f first
+#define Flow first
 #define s second
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;
@@ -66,7 +66,7 @@ public:
 };
 
 int N, M;
-vector<pll> v;
+vector<pll> V;
 
 int main(void) {
     ios_base::sync_with_stdio(false);
@@ -77,10 +77,10 @@ int main(void) {
     segment root(N);
     for(int i=1; i<=N; i++) {
         int x; cin >> x;
-        v.emplace_back(x,i);
+        V.emplace_back(x,i);
     }
-    sort(all(v));
-    for(pii x : v) root.update(1,1,N,x.s,x.f);
+    sort(all(V));
+    for(pii x : V) root.update(1,1,N,x.s,x.Flow);
 
     cin >> M;
     while(M--) {

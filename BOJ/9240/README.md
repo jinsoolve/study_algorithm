@@ -12,7 +12,7 @@ cmp 함수를 만들 때 ccw = 0 일 경우 거리를 비교해 줘야 한다.
 ### 후기
 전에 최소 거리를 찾는 문제를 분할 정복으로 풀어서 시도해보려 했으나 불가능했다.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -33,7 +33,7 @@ cmp 함수를 만들 때 ccw = 0 일 경우 거리를 비교해 줘야 한다.
 #define INF2 2147483647
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;
@@ -49,7 +49,7 @@ struct Vector {
     double cross(const Vector &other) const {
         return x*other.y - y*other.x;
     }
-    double dist(const Vector &other) const {
+    double minDist(const Vector &other) const {
         return sqrt(pow(x-other.x,2) + pow(y-other.y,2));
     }
 
@@ -69,7 +69,7 @@ vector<Vector> convex;
 
 bool cmp(Vector a, Vector b) {
     double res = (a-points[0]).cross(b-points[0]);
-    if(res == 0) return points[0].dist(a) < points[0].dist(b);
+    if(res == 0) return points[0].minDist(a) < points[0].minDist(b);
     return res > 0;
 }
 
@@ -100,7 +100,7 @@ int main(void) {
     double ans = 0;
     for(int i=0; i<convex.size(); i++) {
         for(int j=i+1; j<convex.size(); j++) {
-            ans = max(ans, convex[i].dist(convex[j]));
+            ans = max(ans, convex[i].minDist(convex[j]));
         }
     }
     cout << ans << '\n';

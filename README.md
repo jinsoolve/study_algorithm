@@ -90,7 +90,8 @@ study algorithm with C++
 [BOJ 10254 - 고속도로](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10254)
 
 ## 최대 유량(Network Flow)
-[BOJ 1420 - 학교 가지마!](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1420)
+[BOJ 1420 - 학교 가지마!](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1420)  
+[BOJ 3640 - 제독](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3640)
 
 ## 최소 공통 조상(LCA)
 [BOJ 15480 - LCA와 쿼리](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/15480)

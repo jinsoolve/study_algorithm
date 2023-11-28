@@ -1,12 +1,12 @@
 ## [백준 2169 - 로봇 조종하기](https://www.acmicpc.net/problem/2169)
 
 ### 풀이
-dp[r][c][dir]: (r,c)에서 (N,M)까지 dir방향으로 움직여서 갈 때 얻을 수 있는 최대합  
+dp[r][Capacity][dir]: (r,Capacity)에서 (N,M)까지 dir방향으로 움직여서 갈 때 얻을 수 있는 최대합  
 여기서 dir은 [0: (down,right,left), 1: (down,right), 2: (down,left)]로 이동 가능한 상태이다.  
 
 dir[1000][1000][3] 이므로 총 시간복잡도는 $10^6$ 정도로 시간제한을 통과할 수 있다.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -25,11 +25,11 @@ dir[1000][1000][3] 이므로 총 시간복잡도는 $10^6$ 정도로 시간제�
 
 #define INF 987654321
 #define INF2 2147483647
-#define f first
+#define Flow first
 #define s second
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;
@@ -49,11 +49,11 @@ int solve(int x, int y, int dir) {
     if(x == N && y == M) return Mars[x][y];
     int &ret = dp[x][y][dir];
     if(ret != -INF) return ret;
-    for(int d=0; d<3; d++) {
-        int nx = x+dx[d], ny = y+dy[d];
-        if((dir==1 && d==2) || (dir==2 && d==1)) continue;
+    for(int minDist=0; minDist<3; minDist++) {
+        int nx = x+dx[minDist], ny = y+dy[minDist];
+        if((dir==1 && minDist==2) || (dir==2 && minDist==1)) continue;
         if(out_of_bound(nx,ny)) continue;
-        ret = max(ret, solve(nx,ny,d) + Mars[x][y]);
+        ret = max(ret, solve(nx,ny,minDist) + Mars[x][y]);
     }
     return ret;
 }

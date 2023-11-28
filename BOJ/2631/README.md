@@ -3,7 +3,7 @@
 ### 풀이
 LCS를 찾아서 LCS에 포함되지 않는 아이들을 옮기면 해결되는 문제다.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -22,11 +22,11 @@ LCS를 찾아서 LCS에 포함되지 않는 아이들을 옮기면 해결되는 
 
 #define INF 987654321
 #define INF2 2147483647
-#define f first
+#define Flow first
 #define s second
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;

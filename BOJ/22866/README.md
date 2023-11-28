@@ -13,7 +13,7 @@ stack을 이용하여 푸는 문제다.
 
 오른쪽은 반대로 N -> 1 건물로 이동하면서 stack에 같은 메커니즘으로 개수를 구한다.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -32,11 +32,11 @@ stack을 이용하여 푸는 문제다.
 
 #define INF 987654321
 #define INF2 2147483647
-#define f first
+#define Flow first
 #define s second
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;

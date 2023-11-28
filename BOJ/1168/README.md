@@ -9,7 +9,7 @@
    (s+K) % (남아있는 전체 사람 수)를 target이라 하자.
 5. 남아있는 사람 중에서 target번째 사람이 다음 k가 된다.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -30,7 +30,7 @@
 #define INF2 2147483647
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;

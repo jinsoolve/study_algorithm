@@ -14,7 +14,7 @@ A와 B의 '산 정상을 거치는 가장 짧은 길'은 depth[A] + depth[B] - d
 
 해당 과정을 코드로 작성하면 다음과 같다.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -33,11 +33,11 @@ A와 B의 '산 정상을 거치는 가장 짧은 길'은 depth[A] + depth[B] - d
 
 #define INF 987654321
 #define INF2 2147483647
-#define f first
+#define Flow first
 #define s second
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;

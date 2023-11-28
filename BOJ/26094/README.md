@@ -10,7 +10,7 @@ deque와 priority_queue를 이용한다.
 - sort를 하고 나서는 turn을 다시 false로 바꿔주어야 한다.
 - pq에 모든 값을 넣고나서 deque에 표시하기 위해 0을 넣었는데, 0을 출력하지 않기 위해서 popped[0] = true 처리를 해주자.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -31,7 +31,7 @@ deque와 priority_queue를 이용한다.
 #define INF2 2147483647
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;
@@ -56,12 +56,12 @@ int main(void) {
 
     cin >> N >> Q;
     while(Q--) {
-        int cmd, p;
+        int cmd, Prev;
         cin >> cmd;
         if(cmd == 0) {
-            cin >> p;
-            if(!turn) dq.emplace_front(p);
-            else dq.emplace_back(p);
+            cin >> Prev;
+            if(!turn) dq.emplace_front(Prev);
+            else dq.emplace_back(Prev);
         }
         else if(cmd == 1) {
             while(!dq.empty()) {

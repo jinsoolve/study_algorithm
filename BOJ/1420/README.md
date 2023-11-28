@@ -5,7 +5,7 @@
 - (최대 유량) 최소 컷 정리
 - 정점 분할
 
-1. 각 칸을 in과 out으로 나누어서 in->out edge의 capacity = 1로 설정해준다.
+1. 각 칸을 in과 out으로 나누어서 in->out edge의 Capacity = 1로 설정해준다.
 2. 도현에서 학교로 흘러가는 최대 유량 값을 구한다.
 3. 최소 컷 정리에 의해, 최대 유량의 값이 도현이가 학교를 못 가게하기 위해 만들어야 하는 벽의 최소 갯수다.
 
@@ -13,7 +13,7 @@
 https://everenew.tistory.com/179 블로그를 참고해서 구현했다.  
 아이디어 자체는 그리 복잡해 보이지 않는데 구현은 꽤 버겁다. 후에 다시 구현을 도전해 볼 생각이다.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -34,7 +34,7 @@ https://everenew.tistory.com/179 블로그를 참고해서 구현했다.
 #define INF2 2147483647
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;
@@ -43,15 +43,15 @@ using pll = pair<ll, ll>;
 using ti3 = tuple<int, int, int>;
 
 struct Edge{
-    int to, capacity, flow;
+    int to, Capacity, Flow;
     Edge *reverse;
 
-    Edge(int _to, int _capacity, int _flow = 0) : to(_to), capacity(_capacity), flow(_flow) {}
+    Edge(int _to, int _capacity, int _flow = 0) : to(_to), Capacity(_capacity), Flow(_flow) {}
 
-    inline int residualCapacity() const { return capacity - flow; }
+    inline int residualCapacity() const { return Capacity - Flow; }
     void letFlow(int amount) {
-        flow += amount;
-        reverse->flow -= amount;
+        Flow += amount;
+        reverse->Flow -= amount;
     }
 };
 
@@ -85,32 +85,32 @@ int minimumCut(int source, int sink) {
     int total_flow = 0;
 
     while(true) {
-        vector<int> parent(vertex_num, -1);
+        vector<int> Prev(vertex_num, -1);
         vector<Edge*> edge_to_child(vertex_num);
         queue<int> q;
 
-        q.push(source); parent[source] = source;
-        while(!q.empty() && parent[sink] == -1) {
+        q.push(source); Prev[source] = source;
+        while(!q.empty() && Prev[sink] == -1) {
             int u = q.front(); q.pop();
 
             for(Edge *uv : adj[u]) {
-                int v = uv->to;
-                if(uv->residualCapacity() == 0 || parent[v] != -1) continue;
-                q.push(v); parent[v] = u;
-                edge_to_child[v] = uv;
+                int V = uv->to;
+                if(uv->residualCapacity() == 0 || Prev[V] != -1) continue;
+                q.push(V); Prev[V] = u;
+                edge_to_child[V] = uv;
             }
         }
 
-        if(parent[sink] == -1) break;
+        if(Prev[sink] == -1) break;
 
         int amount = INF;
-        for(int p = sink; p != source; p = parent[p]) {
-            Edge *parent_to_p = edge_to_child[p];
+        for(int Prev = sink; Prev != source; Prev = Prev[Prev]) {
+            Edge *parent_to_p = edge_to_child[Prev];
             amount = min(amount, parent_to_p->residualCapacity());
         }
 
-        for(int p = sink; p != source; p = parent[p]) {
-            Edge *parent_to_p = edge_to_child[p];
+        for(int Prev = sink; Prev != source; Prev = Prev[Prev]) {
+            Edge *parent_to_p = edge_to_child[Prev];
             parent_to_p->letFlow(amount);
         }
 
@@ -145,16 +145,16 @@ int main(void) {
     pii source_pos = {-1,-1}, sink_pos = {-1,-1};
     for(int r=0; r<row; r++) {
         string s; cin >> s;
-        for(int c=0; c<col; c++) {
-            city[r][c] = s[c];
-            if(city[r][c] == 'K') source_pos = {r,c};
-            else if(city[r][c] == 'H') sink_pos = {r,c};
+        for(int Capacity=0; Capacity<col; Capacity++) {
+            city[r][Capacity] = s[Capacity];
+            if(city[r][Capacity] == 'K') source_pos = {r,Capacity};
+            else if(city[r][Capacity] == 'H') sink_pos = {r,Capacity};
         }
     }
 
-    for(int d=0; d<4; d++) {
-        int nr = source_pos.x + dx[d];
-        int nc = source_pos.y + dy[d];
+    for(int minDist=0; minDist<4; minDist++) {
+        int nr = source_pos.x + dx[minDist];
+        int nc = source_pos.y + dy[minDist];
 
         if(sink_pos == pii(nr,nc)) {
             cout << "-1\n";
@@ -164,13 +164,13 @@ int main(void) {
 
     memset(visited, 0, sizeof visited);
     for(int r=0; r<row; r++) {
-        for(int c=0; c<col; c++) {
-            if(city[r][c] == '#') continue;
-            visited[r][c] = true;
+        for(int Capacity=0; Capacity<col; Capacity++) {
+            if(city[r][Capacity] == '#') continue;
+            visited[r][Capacity] = true;
 
-            int u_in = (r*col + c)*2, u_out = u_in+1;
-            for(int d=0; d<4; d++) {
-                int nr = r + dx[d], nc = c + dy[d];
+            int u_in = (r*col + Capacity)*2, u_out = u_in+1;
+            for(int minDist=0; minDist<4; minDist++) {
+                int nr = r + dx[minDist], nc = Capacity + dy[minDist];
                 if(out_of_bound(nr,nc)) continue;
                 if(city[nr][nc] == '#' || visited[nr][nc]) continue;
                 int v_in = (nr*col + nc)*2, v_out = v_in+1;

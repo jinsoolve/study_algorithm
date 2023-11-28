@@ -17,7 +17,7 @@ i번째 연속 감소 부분수열의 가장 큰 값이 i+1번째 연속 감소 
    부분수열의 개수는 1 + (N-K) 이 된다.<br/>
    부분수열의 개수가 LCS가 되므로 M은 (N-K+1) 이하이어야 한다.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -36,11 +36,11 @@ i번째 연속 감소 부분수열의 가장 큰 값이 i+1번째 연속 감소 
 
 #define INF 987654321
 #define INF2 2147483647
-#define f first
+#define Flow first
 #define s second
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;

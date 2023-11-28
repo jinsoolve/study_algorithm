@@ -4,7 +4,7 @@
 압축된 좌표로 지도를 모두 쪼개서 겹치는 지도가 없도록 한다.  
 map을 이용해서 지도가 중복되지 않도록 모두 다 넣는다.  
 map에 있는 모든 쪼개진 지도의 넓이의 합이 정답이다.
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -25,7 +25,7 @@ map에 있는 모든 쪼개진 지도의 넓이의 합이 정답이다.
 #define INF2 2147483647
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;
@@ -110,7 +110,7 @@ y좌표들에 시작선을 만나면 +1을, 끝선을 만나면 -1을 해준다.
 해당 노드가 범위에 포함된다면 +1, -1을 해주면 된다.  
 
 cnt에는 들어온 수직선의 query를 기록하고 tree에는 해당 y좌표가 활성화되었는지의 여부를 저장한다.
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -131,7 +131,7 @@ cnt에는 들어온 수직선의 query를 기록하고 tree에는 해당 y좌표
 #define INF2 2147483647
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;

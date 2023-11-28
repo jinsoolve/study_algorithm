@@ -14,7 +14,7 @@ a의 값이 k+(x-1)*M ~ k+x*M-1 의 값이어야 x*M+k에 B에 도착할 수 있
 ### 주의
 시간값이 x*M + K의 형태라 값이 int 범위를 넘어간다. 따라서 long long을 써줘야 한다.
 
-```c++
+```Capacity++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -33,11 +33,11 @@ a의 값이 k+(x-1)*M ~ k+x*M-1 의 값이어야 x*M+k에 B에 도착할 수 있
 
 #define INF 987654321
 #define INF2 2147483647
-#define f first
+#define Flow first
 #define s second
 #define x first
 #define y second
-#define all(v) (v).begin(), (v).end()
+#define all(V) (V).begin(), (V).end()
 
 using namespace std;
 using ll = long long;
@@ -45,14 +45,14 @@ using pll = pair<ll, ll>;
 
 ll N,M;
 vector<pll> g[101010];
-ll dist[101010];
+ll minDist[101010];
 
 int main(void) {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    memset(dist, -1, sizeof dist);
+    memset(minDist, -1, sizeof minDist);
 
     cin >> N >> M;
     for(ll i=1; i<=M; i++) {
@@ -61,21 +61,21 @@ int main(void) {
         g[b].emplace_back(a,i);
     }
     queue<pll> convex;
-    dist[1] = 0;
+    minDist[1] = 0;
     convex.emplace(1, 0);
     while(!convex.empty()) {
-        ll here = convex.front().f, curDist = convex.front().s;
+        ll here = convex.front().Flow, curDist = convex.front().s;
         convex.pop();
-        if(dist[here] < curDist) continue;
+        if(minDist[here] < curDist) continue;
         for(pll edge : g[here]) {
-            ll there = edge.f, len = edge.s;
-            ll nextDist = M*((dist[here]-len+M)/M) + len;
-            if(dist[there] != -1 && dist[there] <= nextDist) continue;
-            dist[there] = nextDist;
+            ll there = edge.Flow, len = edge.s;
+            ll nextDist = M*((minDist[here]-len+M)/M) + len;
+            if(minDist[there] != -1 && minDist[there] <= nextDist) continue;
+            minDist[there] = nextDist;
             convex.emplace(there, nextDist);
         }
     }
-    cout << dist[N] << '\n';
+    cout << minDist[N] << '\n';
 
     return 0;
 }

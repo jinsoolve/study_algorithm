@@ -35,7 +35,8 @@ study algorithm with C++
 ## Dynamic Programming
 [BOJ 2631 - 줄세우기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2631)  
 [BOJ 2169 - 로봇 조종하기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2169)  
-[BOJ 26093 - 고양이 목에 리본 달기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/26093)
+[BOJ 26093 - 고양이 목에 리본 달기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/26093)  
+[BOJ 2673 - 교차하지 않는 원의 현들의 최대집합](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2673)
 
 ## 이분 탐색
 [BOJ 2110 - 공유기 설치](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2110)

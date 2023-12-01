@@ -79,7 +79,8 @@ study algorithm with C++
 ## Convex Hull 
 [BOJ 9240 - 로버트 후드](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9240)  
 [BOJ 10254 고속도로](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10254)  
-[BOJ 3878 - 점 분리](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3878)
+[BOJ 3878 - 점 분리](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3878)  
+[BOJ 7420 - 맹독 방벽](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/7420)
 
 ## 이분 매칭
 [BOJ 1867 - 돌멩이 제거](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1867)  

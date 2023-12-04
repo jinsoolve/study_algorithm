@@ -62,6 +62,9 @@ study algorithm with C++
 ## 최단경로
 [BOJ 24042 - 횡단보도](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/24042)
 
+## 문자열
+[BOJ 11479 - 서로 다른 부분 문자열의 개수 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11479)
+
 ## 수학
 [BOJ 20188 - 등산 마니아](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/20188)
 

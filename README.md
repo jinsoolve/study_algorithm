@@ -39,7 +39,8 @@ study algorithm with C++
 [BOJ 2673 - 교차하지 않는 원의 현들의 최대집합](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2673)
 
 ## 이분 탐색
-[BOJ 2110 - 공유기 설치](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2110)
+[BOJ 2110 - 공유기 설치](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2110)  
+[BOJ 1637 - 날카로운 눈](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1637)
 
 ## 그래프 탐색
 [BOJ 4179 - 불!](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/4179)

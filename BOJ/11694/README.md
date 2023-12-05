@@ -87,7 +87,7 @@ int main(void) {
     vector<int> P; P.resize(N);
     for(int i=0; i<N; i++) cin >> P[i];
     NIM_Game nimGame(P);
-    if(nimGame.final_stone_victory()) cout << "koosaga\n";
+    if(nimGame.final_stone_defeat()) cout << "koosaga\n";
     else cout << "cubelover\n";
     return 0;
 }

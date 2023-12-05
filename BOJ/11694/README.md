@@ -9,9 +9,9 @@ oneStoneCnt := (돌이 1개짜리 더미의 개수) 라 하자.
 nim_sum()은 모든 돌더미의 개수를 xor연산한 값을 의미한다.
 1. if oneStoneCnt == 0, nim_sum != 0이면 선공 필승이다.
 2. if oneStoneCnt == N, nim_sum == 0이면 선공 필승이다.
-3. else (나머지의 경우),  
-   if oneStoneCnt가 짝수 개이면, 1개짜리 더미가 아닌 더미를 1개로 만들어서 oneStoneCnt를 홀수로 만든다.  
-   nim_sum != 0이면 선공 필승이다.
+3. else (나머지의 경우),
+   1. 만약 oneStoneCnt가 짝수이면, 1개짜리 더미가 아닌 더미를 1개로 만들어서 oneStoneCnt를 홀수로 만든다.
+   2. nim_sum != 0이면 선공 필승이다.
 
 ```c++
 #include <iostream>

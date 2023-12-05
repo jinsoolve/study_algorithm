@@ -6,7 +6,7 @@
 2. cnt[s++] = false 처리를 해준다.
 3. 1~2를 끝까지 반복한다.
 
-```Capacity++
+```c++
 #include <iostream>
 #include <algorithm>
 #include <cmath>

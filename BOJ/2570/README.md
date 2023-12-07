@@ -49,7 +49,7 @@ bool obstacle[101][101];
 int dx[] = {1, 1};
 int dy[] = {-1, 1};
 
-vector<int> p;
+vector<int> parent;
 vector<bool> capacity;
 vector<vector<int>> g;
 
@@ -82,15 +82,15 @@ bool DFS(int here) {
     for(int there : g[here]) {
         if(capacity[there]) continue;
         capacity[there] = true;
-        if(p[there] == -1 || DFS(p[there])) {
-            p[there] = here;
+        if(parent[there] == -1 || DFS(parent[there])) {
+            parent[there] = here;
             return true;
         }
     }
     return false;
 }
 int bipartite() {
-    fill(all(p), -1);
+    fill(all(parent), -1);
     int ret = 0;
     for(int i=0; i<leftCnt; i++) {
         fill(all(capacity), 0);
@@ -112,7 +112,7 @@ int main(void) {
     bishopMove();
 
     // init
-    p.resize(rightCnt);
+    parent.resize(rightCnt);
     capacity.resize(rightCnt);
     g.resize(leftCnt);
 

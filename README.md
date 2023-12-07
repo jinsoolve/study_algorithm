@@ -65,7 +65,8 @@ study algorithm with C++
 [BOJ 24042 - 횡단보도](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/24042)
 
 ## 문자열
-[BOJ 11479 - 서로 다른 부분 문자열의 개수 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11479)
+[BOJ 11479 - 서로 다른 부분 문자열의 개수 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11479)  
+[BOJ 9248 - Suffix Array](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9248)
 
 ## 수학
 [BOJ 20188 - 등산 마니아](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/20188)  
@@ -110,7 +111,8 @@ study algorithm with C++
 [BOJ 1420 - 학교 가지마!](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1420)  
 [BOJ 3640 - 제독](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3640)  
 [BOJ 11495 - 격자 0 만들기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11495)  
-[BOJ 2367 - 파티](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2367)
+[BOJ 2367 - 파티](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2367)  
+[BOJ 11408 - 열혈강호 5](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11408)
 
 ## 최소 공통 조상(LCA)
 [BOJ 15480 - LCA와 쿼리](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/15480)  

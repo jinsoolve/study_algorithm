@@ -118,4 +118,7 @@ study algorithm with C++
 [BOJ 15480 - LCA와 쿼리](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/15480)  
 
 ## 필승 전략 게임
-[BOJ 11694 - 님 게임](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11694)
+[BOJ 11694 - 님 게임](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11694)  
+
+## 빠른 거듭제곱 알고리즘(Exponentiation by Squaring)
+[BOJ 1533 - 길의 개수](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1533)

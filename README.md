@@ -118,7 +118,4 @@ study algorithm with C++
 [BOJ 15480 - LCA와 쿼리](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/15480)  
 
 ## 필승 전략 게임
-[BOJ 11694 - 님 게임](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11694)  
-
-### 최소 스패닝 트리(MST, Minimum Spanning Tree)
-[BOJ 4792 - 레드 블루 스패닝 트리](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/4792)
+[BOJ 11694 - 님 게임](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11694)

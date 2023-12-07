@@ -109,9 +109,9 @@ int main(void) {
     cin >> N >> M;
     cin >> val[1];
     for(int i=2; i<=N; i++) {
-        int parent;
-        cin >> val[i] >> parent;
-        g[parent].emplace_back(i);
+        int p;
+        cin >> val[i] >> p;
+        g[p].emplace_back(i);
     }
     dfs(1);
     segment root(N);

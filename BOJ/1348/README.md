@@ -57,7 +57,7 @@ int dx[] = {-1,0,1,0};
 int dy[] = {0,1,0,-1};
 vector<pii> g[201];
 bool capacity[201];
-int parent[201];
+int p[201];
 
 inline bool out_of_bound(int x, int y) {return x<1 || x>R || y<1 || y>C;}
 void bfs(int i, int car_number) {
@@ -84,15 +84,15 @@ bool dfs(int here, int time) {
         int there = edge.first, cost = edge.second;
         if(capacity[there] || cost > time) continue;
         capacity[there] = true;
-        if(parent[there] == -1 || dfs(parent[there], time)) {
-            parent[there] = here;
+        if(p[there] == -1 || dfs(p[there], time)) {
+            p[there] = here;
             return true;
         }
     }
     return false;
 }
 bool bipartite(int time) {
-    memset(parent, -1, sizeof parent);
+    memset(p, -1, sizeof p);
     for(int i=1; i<carNum; i++) {
         memset(capacity, 0, sizeof capacity);
         if(!dfs(i, time)) return false;

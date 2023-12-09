@@ -113,7 +113,8 @@ study algorithm with C++
 [BOJ 3640 - 제독](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3640)  
 [BOJ 11495 - 격자 0 만들기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11495)  
 [BOJ 2367 - 파티](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2367)  
-[BOJ 11408 - 열혈강호 5](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11408)
+[BOJ 11408 - 열혈강호 5](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11408)  
+[BOJ 11405 - 책 구매하기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11405)
 
 ## 최소 공통 조상(LCA)
 [BOJ 15480 - LCA와 쿼리](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/15480)  

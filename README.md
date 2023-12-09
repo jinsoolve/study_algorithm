@@ -118,7 +118,8 @@ study algorithm with C++
 [BOJ 11405 - 책 구매하기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11405)
 
 ## 최소 공통 조상(LCA)
-[BOJ 15480 - LCA와 쿼리](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/15480)  
+[BOJ 15480 - LCA와 쿼리](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/15480)    
+[BOJ 13511 - 트리와 쿼리 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13511)
 
 ## 필승 전략 게임
 [BOJ 11694 - 님 게임](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11694)  

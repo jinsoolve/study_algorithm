@@ -49,11 +49,9 @@ int solve(int n, int m) {
     if(ret != -1) return ret;
 
     ret = n*m;
-    if(n >= 3*m) ret = min(ret, solve(n-m,m) + 1);
-    else {
-        for(int i=1; i<=n/2; i++) ret = min(ret, solve(n-i, m) + solve(i,m));
-        for(int j=1; j<=m/2; j++) ret = min(ret, solve(n, m-j) + solve(n,j));
-    }
+    if(n >= 3*m) return ret = min(ret, solve(n-m,m) + 1);
+    for(int i=1; i<=n/2; i++) ret = min(ret, solve(n-i, m) + solve(i,m));
+    for(int j=1; j<=m/2; j++) ret = min(ret, solve(n, m-j) + solve(n,j));
     return ret;
 }
 

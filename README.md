@@ -133,3 +133,6 @@ study algorithm with C++
 
 ## 강한 연결 요소(Strongly Connected Component, SCC)
 [BOJ 2152 - 여행 계획 세우기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2152)
+
+### 그래프 탐색
+[BOJ 16930 - 달리기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/16930)

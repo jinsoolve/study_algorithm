@@ -130,3 +130,6 @@ study algorithm with C++
 
 ## 빠른 거듭제곱 알고리즘(Exponentiation by Squaring)
 [BOJ 1533 - 길의 개수](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1533)
+
+## 강한 연결 요소(Strongly Connected Component, SCC)
+[BOJ 2152 - 여행 계획 세우기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2152)

@@ -17,7 +17,7 @@ ex) 입력 7788
 
 2. res = 778n  
     n = 0 ~ 9 동안, line[n] == line[8] 을 찾는다.  
-    ans = res + pow_10[4] - stoll(num)) % pow_10[4] 으로 업데이트 해준다. (pow_10[4] = 10^4)  
+    ans = (res + pow_10[4] - stoll(num)) % pow_10[4] 으로 업데이트 해준다. (pow_10[4] = 10^4, stoll(num)은 num을 longlong으로 바꾼 결과)  
     위 공식이 가능한 이유는   
     if res > num, ans = res - num   
     else, ans = res + pow_10[4] - num 이기 때문이다.  

@@ -5,8 +5,8 @@
 
 ### 풀이
 1. min cost max flow 알고리즘을 사용한다.
-2. dist를 계산할 때 max cost로 바꿔야 하므로 반대로 계산하면 된다. 
-   dist를 numeric_limits<int>::min()로 초기화한다.
+2. dist를 계산할 때 max cost로 바꿔야 하므로 반대로 계산하면 된다.   
+   dist를 numeric_limits<int>::min()로 초기화한다.  
    dist[there] < dist[here] + edge.cost 일 때 값을 바꿔주고 queue에 넣어준다.
 
 ```c++

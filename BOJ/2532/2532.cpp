@@ -30,7 +30,7 @@ bool cmp(pii a, pii b) {
 }
 int n;
 vector<pii> v;
-vector<int> lds;
+vector<int> lis;
 
 int main(void) {
     ios_base::sync_with_stdio(false);
@@ -44,11 +44,11 @@ int main(void) {
     }
     sort(all(v), cmp); v.erase(unique(all(v)), v.end());
     for(pii x : v) {
-        auto it = upper_bound(all(lds), x.first);
-        if(it == lds.end()) lds.emplace_back(x.first);
+        auto it = upper_bound(all(lis), x.first);
+        if(it == lis.end()) lis.emplace_back(x.first);
         else *it = x.first;
     }
-    cout << lds.size() << '\n';
+    cout << lis.size() << '\n';
 
     return 0;
 }

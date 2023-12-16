@@ -51,6 +51,7 @@ study algorithm with C++
 
 ## 그래프 탐색(이론)
 [BOJ 4179 - 불!](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/4179)  
+[BOJ 16930 - 달리기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/16930)
 [BOJ 1185 - 유럽여행](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1185) - MST(최소 스패닝 트리)
 
 ## 좌표 압축
@@ -139,5 +140,5 @@ study algorithm with C++
 ## 강한 연결 요소(Strongly Connected Component, SCC)
 [BOJ 2152 - 여행 계획 세우기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2152)
 
-### 그래프 탐색
-[BOJ 16930 - 달리기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/16930)
+### 가장 긴 증가하는 부분 수열(Longest Increasing Subsequence, LIS)
+[BOJ 2532 - 먹이사슬](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2532) - 중복 허용 LIS

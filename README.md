@@ -144,8 +144,8 @@ study algorithm with C++
 ## 강한 연결 요소(Strongly Connected Component, SCC)
 [BOJ 2152 - 여행 계획 세우기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2152)
 
-### 가장 긴 증가하는 부분 수열(Longest Increasing Subsequence, LIS)
+## 가장 긴 증가하는 부분 수열(Longest Increasing Subsequence, LIS)
 [BOJ 2532 - 먹이사슬](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2532) - 중복 허용 LIS
 
-### 그리디 알고리즘(greedy algorithm)
+## 그리디 알고리즘(greedy algorithm)
 [BOJ 2220 - 힙 정렬](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2220) - 최대 힙(max heap)

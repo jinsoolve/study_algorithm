@@ -146,3 +146,6 @@ study algorithm with C++
 
 ### 가장 긴 증가하는 부분 수열(Longest Increasing Subsequence, LIS)
 [BOJ 2532 - 먹이사슬](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2532) - 중복 허용 LIS
+
+### 그리디 알고리즘(greedy algorithm)
+[BOJ 2220 - 힙 정렬](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2220) - 최대 힙(max heap)

@@ -84,5 +84,5 @@ int main(void) {
 ```
 
 ### 참고
-https://sdy-study.tistory.com/233
+https://sdy-study.tistory.com/233  
 https://blog.encrypted.gg/625

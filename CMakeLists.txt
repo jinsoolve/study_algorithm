@@ -3,4 +3,4 @@ project(study_algorithm)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(study_algorithm BOJ/2220/2220.cpp)
+add_executable(study_algorithm BOJ/14927/14927.cpp)

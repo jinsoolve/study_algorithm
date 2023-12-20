@@ -148,5 +148,5 @@ study algorithm with C++
 [BOJ 2532 - 먹이사슬](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2532) - 중복 허용 LIS
 
 ## 그리디 알고리즘(greedy algorithm)
-[BOJ 2220 - 힙 정렬](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2220) - 최대 힙(max heap)
+[BOJ 2220 - 힙 정렬](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2220) - 최대 힙(max heap)  
 [BOJ 14927 - 전구 끄기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14927) - 비트마스킹

@@ -97,8 +97,8 @@ study algorithm with C++
 [BOJ 17353 - 하늘에서 떨어지는 1, 2, ..., R-L+1개의 별](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/17353)  
 [BOJ 2934 - LRH 식물](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2934)  
 [BOJ 2820 - 자동차 공장](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2820)  
-[BOJ 14268 - 회사 문화 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14268)  
-[BOJ 16404 - 주식회사 승범이네](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/16404)
+[BOJ 14268 - 회사 문화 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14268) - 오일러 경로    
+[BOJ 16404 - 주식회사 승범이네](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/16404) - 오일러 경로  
 
 ## Convex Hull 
 [BOJ 9240 - 로버트 후드](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9240)  
@@ -150,3 +150,6 @@ study algorithm with C++
 ## 그리디 알고리즘(greedy algorithm)
 [BOJ 2220 - 힙 정렬](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2220) - 최대 힙(max heap)  
 [BOJ 14927 - 전구 끄기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14927) - 비트마스킹
+
+## 오일러 경로 & 회로
+[BOJ 1199 - 오일러 회로](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1199) - 오일러 회로(Hierholzer's Algorithm)

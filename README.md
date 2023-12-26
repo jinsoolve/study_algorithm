@@ -106,7 +106,8 @@ study algorithm with C++
 [BOJ 3878 - 점 분리](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3878)  
 [BOJ 7420 - 맹독 방벽](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/7420)  
 [BOJ 3679 - 단순 다각형](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3679)  
-[BOJ 2254 - 감옥 건설](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2254)
+[BOJ 2254 - 감옥 건설](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2254)  
+[BOJ 2191 - 들쥐의 탈출](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2191)
 
 ## 이분 매칭
 [BOJ 1867 - 돌멩이 제거](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1867)  

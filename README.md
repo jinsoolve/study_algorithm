@@ -143,7 +143,8 @@ study algorithm with C++
 [BOJ 1533 - 길의 개수](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1533)
 
 ## 강한 연결 요소(Strongly Connected Component, SCC)
-[BOJ 2152 - 여행 계획 세우기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2152)
+[BOJ 2152 - 여행 계획 세우기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2152)  
+[BOJ 10265 - MT](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10265) - knapsack
 
 ## 가장 긴 증가하는 부분 수열(Longest Increasing Subsequence, LIS)
 [BOJ 2532 - 먹이사슬](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2532) - 중복 허용 LIS

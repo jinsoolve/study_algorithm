@@ -156,3 +156,6 @@ study algorithm with C++
 
 ## 오일러 경로 & 회로
 [BOJ 1199 - 오일러 회로](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1199) - 오일러 회로(Hierholzer's Algorithm)
+
+## 기하학
+[BOJ 10000 - 원 영역](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10000)

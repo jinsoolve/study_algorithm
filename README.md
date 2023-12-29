@@ -158,4 +158,5 @@ study algorithm with C++
 [BOJ 1199 - 오일러 회로](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1199) - 오일러 회로(Hierholzer's Algorithm)
 
 ## 기하학
-[BOJ 10000 - 원 영역](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10000)
+[BOJ 10000 - 원 영역](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10000)  
+[BOJ 10255 - 교차점](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10255)

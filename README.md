@@ -55,7 +55,7 @@ study algorithm with C++
 
 ## 그래프 탐색(이론)
 [BOJ 4179 - 불!](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/4179)  
-[BOJ 16930 - 달리기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/16930)
+[BOJ 16930 - 달리기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/16930)  
 [BOJ 1185 - 유럽여행](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1185) - MST(최소 스패닝 트리)
 
 ## 좌표 압축

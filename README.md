@@ -144,7 +144,8 @@ study algorithm with C++
 
 ## 필승 전략 게임
 [BOJ 11694 - 님 게임](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11694)  
-[BOJ 16895 - 님 게임 3](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/16895)
+[BOJ 16895 - 님 게임 3](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/16895)  
+[BOJ 11869 - 님블](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11869)
 
 ## 빠른 거듭제곱 알고리즘(Exponentiation by Squaring)
 [BOJ 1533 - 길의 개수](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1533)

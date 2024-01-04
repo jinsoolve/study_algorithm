@@ -30,7 +30,8 @@ study algorithm with C++
 [BOJ 13144 - List of Unique Numbers](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13144)
 
 ## Trie
-[BOJ 2179 - 비슷한 단어](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2179)
+[BOJ 2179 - 비슷한 단어](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2179)  
+[BOJ 19585 - 전설](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/19585)
 
 ## 아호-코라식(Aho-Corasick)
 [BOJ 9250 - 문자열 집합 판별](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9250)

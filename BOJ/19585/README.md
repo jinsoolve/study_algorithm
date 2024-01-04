@@ -43,7 +43,6 @@ using pll = pair<ll, ll>;
 using ti3 = tuple<int, int, int>;
 
 unordered_set<string> nicks;
-string s;
 class Trie {
 public:
     bool terminal;
@@ -67,6 +66,7 @@ public:
 
 int C, N, Q;
 Trie *colors = new Trie();
+string s;
 
 int main(void) {
     ios_base::sync_with_stdio(false);

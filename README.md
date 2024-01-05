@@ -96,7 +96,8 @@ study algorithm with C++
 [BOJ 9345 - 디지털 비디오 디스크(DVDs)](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9345)  
 [BOJ 1168 - 요세푸스 문제 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1168)  
 [BOJ 17408 - 수열과 쿼리 24](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/17408)  
-[BOJ 14287 - 회사 문화 3](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14287) - 오일러 경로
+[BOJ 14287 - 회사 문화 3](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14287) - 오일러 경로  
+[BOJ 2465 - 줄 세우기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2465)
 
 ## 느리게 갱신되는 세그먼트 트리(lazy segment tree)
 [BOJ 17353 - 하늘에서 떨어지는 1, 2, ..., R-L+1개의 별](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/17353)  

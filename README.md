@@ -7,7 +7,8 @@ study algorithm with C++
 [BOJ 13544 - 수열과 쿼리 3](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13544)  
 [BOJ 2912 - 백설공주와 난쟁이](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2912)  
 [BOJ 17131 - 여우가 정보섬에 올라온 이유](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/17131)  
-[BOJ 11012 - Egg](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11012)
+[BOJ 11012 - Egg](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11012)  
+[BOJ 15899 - 트리와 색깔](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/15899) - 오일러 경로 테크닉
 
 ## Mo's Algorithm
 [BOJ 13547 - 수열과 쿼리 5](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13547)  

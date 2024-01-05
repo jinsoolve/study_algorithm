@@ -139,7 +139,8 @@ study algorithm with C++
 [BOJ 11409 - 열혈강호 6](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11409)  
 [BOJ 11111 - 두부장수 장홍준 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11111) - MCMF(최대비용 최대유량)  
 [BOJ 11407 - 책 구매하기 3](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11407) - MCMF(최소비용 최대유량)  
-[BOJ 11406 - 책 구매하기 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11406)
+[BOJ 11406 - 책 구매하기 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11406)  
+[BOJ 10937 - 두부 모판 자르기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10937) - MCMF(최대비용 최대유량)
 
 ## 최소 공통 조상(LCA)
 [BOJ 15480 - LCA와 쿼리](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/15480)    

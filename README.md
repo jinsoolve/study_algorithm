@@ -49,7 +49,8 @@ study algorithm with C++
 [BOJ 1657 - 두부장수 장홍준](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1657) - 비트마스킹  
 [BOJ 1146 - 지그재그 서기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1146)  
 [BOJ 1866 - 택배](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1866)  
-[BOJ 1514 - 자물쇠](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1514)
+[BOJ 1514 - 자물쇠](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1514)  
+[BOJ 17613 - 점프](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/17613)
 
 ## 이분 탐색
 [BOJ 2110 - 공유기 설치](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2110)  

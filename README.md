@@ -80,7 +80,8 @@ study algorithm with C++
 [BOJ 11479 - 서로 다른 부분 문자열의 개수 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11479)  
 [BOJ 9248 - Suffix Array](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9248)  
 [BOJ 1605 - 반복 부분문자열](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1605)  
-[BOJ 1893 - 시저 암호](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1893) - kmp
+[BOJ 1893 - 시저 암호](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1893) - kmp  
+[BOJ 13506 - 카멜레온 부분 문자열](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13506) - kmp
 
 ## 수학
 [BOJ 20188 - 등산 마니아](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/20188)  

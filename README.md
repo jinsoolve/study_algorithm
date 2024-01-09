@@ -127,7 +127,8 @@ study algorithm with C++
 [BOJ 2570 - 비숍2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2570)  
 [BOJ 1348 - 주차장](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1348)  
 [BOJ 3295 - 단방향 링크 네트워크](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3295)  
-[BOJ 2191 - 들쥐의 탈출](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2191)
+[BOJ 2191 - 들쥐의 탈출](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2191)  
+[BOJ 2414 - 게시판 구멍 막기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2414) - 최소 버텍스 커버
 
 ## Sweeping
 [BOJ 3392 - 화성 지도](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3392)

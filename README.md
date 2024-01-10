@@ -119,7 +119,9 @@ study algorithm with C++
 [BOJ 3878 - 점 분리](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3878)  
 [BOJ 7420 - 맹독 방벽](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/7420)  
 [BOJ 3679 - 단순 다각형](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3679)  
-[BOJ 2254 - 감옥 건설](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2254)
+[BOJ 2254 - 감옥 건설](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2254)  
+[BOJ 10254 - 고속도로](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10254) - 회전하는 캘리퍼스  
+[BOJ 4225 - 쓰레기 슈트](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/4225) - 회전하는 캘리퍼스
 
 ## 이분 매칭
 [BOJ 1867 - 돌멩이 제거](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1867)  
@@ -132,9 +134,6 @@ study algorithm with C++
 
 ## Sweeping
 [BOJ 3392 - 화성 지도](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3392)
-
-## 회전하는 캘리퍼스
-[BOJ 10254 - 고속도로](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10254)
 
 ## 최대 유량(Network Flow)
 [BOJ 1420 - 학교 가지마!](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1420)  

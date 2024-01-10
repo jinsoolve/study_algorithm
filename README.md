@@ -179,3 +179,6 @@ study algorithm with C++
 ## 기하학
 [BOJ 10000 - 원 영역](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10000)  
 [BOJ 10255 - 교차점](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10255)
+
+## 위상정렬(Topological Sort)
+[BOJ 2848 - 알고스팟어](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2848)

@@ -1,3 +1,18 @@
+## [백준 13548 - 수열과 쿼리 6](https://www.acmicpc.net/problem/13548)
+
+### 알고리즘
+- mo's algorithm
+
+### 풀이
+1. cnt[x] := 숫자 x가 나온 횟수
+2. ccnt[cnt[x]] := cnt[x]번 만큼의 횟수가 나온 수들의 개수  
+   예를 들어, 555 이면 cnt[5] = 3, ccnt[3] = 1이 된다. 3번 나온 수의 종류가 1개이므로 ccnt[3] = 1이다.
+3. 현재까지의 가장 많이 나온 횟수를 now라 하자.  
+   1. add 할 때는 cnt[x]에 1을 더하고 가장 큰 값이 now가 된다. ccnt 또한 업데이트 해준다.
+   2. remove 할 때는 cnt[x]에 1을 빼고 ccnt를 업데이트 해준다. ccnt[now]가 0이라면 now--를 해주면 된다.
+4. 탐색은 mo's algorithm을 이용해 O(N x sqrt(N)) 시간으로 탐색 가능하다.
+
+```c++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -83,3 +98,7 @@ int main(void) {
 
     return 0;
 }
+```
+
+### 참고
+https://stonejjun.tistory.com/88

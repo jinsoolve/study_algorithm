@@ -14,7 +14,8 @@ study algorithm with C++
 [BOJ 13547 - 수열과 쿼리 5](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13547)  
 [BOJ 2912 - 백설공주와 난쟁이](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2912)  
 [BOJ 8462 - 배열의 힘](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/8462)  
-[BOJ 14897 - 서로 다른 수와 쿼리 1](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14897)
+[BOJ 14897 - 서로 다른 수와 쿼리 1](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14897)  
+[BOJ 13548 - 수열과 쿼리 6](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13548)
 
 ## 체스판 
 [BOJ 2873 - 롤러코스터](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2873)

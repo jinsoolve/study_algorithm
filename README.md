@@ -90,7 +90,8 @@ study algorithm with C++
 
 ## 수학
 [BOJ 20188 - 등산 마니아](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/20188)  
-[BOJ 1492 - 합](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1492)
+[BOJ 1492 - 합](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1492)  
+[BOJ 1214 - 쿨한 물건 구매](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1214) - 정수론
 
 ## 구현
 [BOJ 14891 - 톱니바퀴](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14891)  

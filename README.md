@@ -156,10 +156,11 @@ study algorithm with C++
 [BOJ 13511 - 트리와 쿼리 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13511)  
 [BOJ 13869 - Sky Tax](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13869)
 
-## 필승 전략 게임
-[BOJ 11694 - 님 게임](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11694)  
-[BOJ 16895 - 님 게임 3](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/16895)  
-[BOJ 11869 - 님블](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11869)
+## 필승 전략 게임(게임 이론)
+[BOJ 11694 - 님 게임](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11694) - 님게임  
+[BOJ 16895 - 님 게임 3](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/16895) - 님게임  
+[BOJ 11869 - 님블](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11869) - 님게임  
+[BOJ 13034 - 다각형 게임](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13034) - 스프라그-그런디
 
 ## 빠른 거듭제곱 알고리즘(Exponentiation by Squaring)
 [BOJ 1533 - 길의 개수](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1533)

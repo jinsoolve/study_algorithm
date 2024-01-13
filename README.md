@@ -139,7 +139,7 @@ study algorithm with C++
 
 ## Sweeping
 [BOJ 3392 - 화성 지도](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3392)  
-[BOJ 18251 - 내 생각에 A번인 단순 dfs 문제가 이 대회에서 E번이 되어버린 건에 관하여](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/18251)
+[BOJ 18251 - 내 생각에 A번인 단순 dfs 문제가 이 대회에서 E번이 되어버린 건에 관하여 (Easy)](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/18251)
 
 ## 최대 유량(Network Flow)
 [BOJ 1420 - 학교 가지마!](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1420)  

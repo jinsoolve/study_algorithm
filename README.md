@@ -87,7 +87,8 @@ study algorithm with C++
 [BOJ 1605 - 반복 부분문자열](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1605)  
 [BOJ 1893 - 시저 암호](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1893) - kmp  
 [BOJ 13506 - 카멜레온 부분 문자열](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13506) - kmp  
-[BOJ 16163 - #15164번_제보](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/16163) - manacher
+[BOJ 16163 - #15164번_제보](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/16163) - manacher  
+[BOJ 9249 - 최장 공통 문자열](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9249) - sa & lcp
 
 ## 수학
 [BOJ 20188 - 등산 마니아](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/20188)  

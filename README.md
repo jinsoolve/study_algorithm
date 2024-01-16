@@ -138,7 +138,8 @@ study algorithm with C++
 [BOJ 3295 - 단방향 링크 네트워크](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3295)  
 [BOJ 2191 - 들쥐의 탈출](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2191)  
 [BOJ 2414 - 게시판 구멍 막기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2414) - 최소 버텍스 커버  
-[BOJ 3683 - 고양이와 개](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3683) - 최소 컷 정리
+[BOJ 3683 - 고양이와 개](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3683) - 최소 컷 정리  
+[BOJ 9525 - 룩 배치하기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9525)
 
 ## Sweeping
 [BOJ 3392 - 화성 지도](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3392)  

@@ -71,7 +71,8 @@ study algorithm with C++
 [BOJ 3392 - 화성 지도](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3392)
 
 ## Stack
-[BOJ 22866 - 탑 보기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/22866)
+[BOJ 22866 - 탑 보기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/22866)  
+[BOJ 11873 - 최대 직사각형](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11873) - 히스토그램에서 가장 큰 직사각형
 
 ## 해 구성하기
 [BOJ 24337 - 가희와 탑](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/24337)

@@ -105,3 +105,6 @@ int main(void) {
     return 0;
 }
 ```
+
+### 참고
+https://jason9319.tistory.com/171

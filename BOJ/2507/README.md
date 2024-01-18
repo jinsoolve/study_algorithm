@@ -83,3 +83,6 @@ int main(void) {
     return 0;
 }
 ```
+
+### 침고
+https://jason9319.tistory.com/291

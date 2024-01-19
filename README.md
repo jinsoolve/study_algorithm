@@ -145,7 +145,8 @@ study algorithm with C++
 [BOJ 2414 - 게시판 구멍 막기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2414) - 최소 버텍스 커버  
 [BOJ 3683 - 고양이와 개](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3683) - 최소 컷 정리  
 [BOJ 9525 - 룩 배치하기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9525)  
-[BOJ 9577 - 토렌트](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9577)
+[BOJ 9577 - 토렌트](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9577)  
+[BOJ 1574 - 룩 어택](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1574)
 
 ## Sweeping
 [BOJ 3392 - 화성 지도](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3392)  

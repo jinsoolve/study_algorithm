@@ -23,7 +23,8 @@ study algorithm with C++
 ## Union-Find
 [BOJ 3830 - 교수님은 기다리지 않는다](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3830)  
 [BOJ 22954 - 그래프 트리 분할](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/22954)  
-[BOJ 9938 - 방 청소](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9938)
+[BOJ 9938 - 방 청소](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9938)  
+[BOJ 17469 - 트리의 색깔과 쿼리](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/17469) - Small to Large Trick
 
 ## 해 구성하기
 [BOJ 1201 - NMK](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1201)

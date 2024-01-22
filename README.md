@@ -117,7 +117,8 @@ study algorithm with C++
 [BOJ 14287 - 회사 문화 3](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14287) - 오일러 경로  
 [BOJ 2465 - 줄 세우기](https://github.com/jins트oolve/study_algorithm/tree/main/BOJ/2465)  
 [BOJ 18227 - 성대나라의 물탱크](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/18227) - 오일러 경로  
-[BOJ 24505 - blobhyperthink](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/24505) - 펜윅트리
+[BOJ 24505 - blobhyperthink](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/24505) - 펜윅트리  
+[BOJ 14288 - 회사 문화 4](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14288) - 오일러 경로 & lazy segment
 
 ## 느리게 갱신되는 세그먼트 트리(lazy segment tree)
 [BOJ 17353 - 하늘에서 떨어지는 1, 2, ..., R-L+1개의 별](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/17353)  

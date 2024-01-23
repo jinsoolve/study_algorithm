@@ -102,7 +102,8 @@ study algorithm with C++
 [BOJ 20188 - 등산 마니아](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/20188)  
 [BOJ 1492 - 합](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1492)  
 [BOJ 1214 - 쿨한 물건 구매](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1214) - 정수론  
-[BOJ 10220 - Self Representing Seq](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10220) - 애드 혹
+[BOJ 10220 - Self Representing Seq](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10220) - 애드 혹  
+[BOJ 5615 - 아파트 임대](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/5615) - 정수론, Miller-Rabin 소수 판별법
 
 ## 구현
 [BOJ 14891 - 톱니바퀴](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14891)  

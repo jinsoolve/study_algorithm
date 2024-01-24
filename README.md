@@ -130,7 +130,8 @@ study algorithm with C++
 [BOJ 14268 - 회사 문화 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14268) - 오일러 경로    
 [BOJ 16404 - 주식회사 승범이네](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/16404) - 오일러 경로  
 [BOJ 15967 - 에바쿰](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/15967)  
-[BOJ 18437 - 회사 문화 5](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/18437) - 오일러 경로
+[BOJ 18437 - 회사 문화 5](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/18437) - 오일러 경로  
+[BOJ 13925 - 수열과 쿼리 13](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13925) - a * val + b 형태, lazy = (a,b)
 
 ## Convex Hull 
 [BOJ 9240 - 로버트 후드](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9240)  

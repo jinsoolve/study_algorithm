@@ -9,6 +9,9 @@
 (A || B) 일 떄, !A -> B와 !B -> A의 edge를 갖는 그래프를 그린다.  
 이때, A와 !A가 같은 SCC 안에 있는 경우가 있으면 불가능한 경우이므로 0, 그러한 A가 없으면 1을 반환한다.
 
+### 주의
++1, -1 이런 숫자를 받을 때 string으로 받는 것보다 int로 받는 편이 편하다.
+
 ```c++
 #include <iostream>
 #include <algorithm>

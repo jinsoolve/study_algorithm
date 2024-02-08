@@ -156,7 +156,8 @@ study algorithm with C++
 [BOJ 9525 - 룩 배치하기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9525)  
 [BOJ 9577 - 토렌트](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9577)  
 [BOJ 1574 - 룩 어택](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1574)  
-[BOJ 1760 - N-Rook](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1760)
+[BOJ 1760 - N-Rook](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1760)  
+[BOJ 18138 - 리유나는 세일러복을 좋아해](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/18138)
 
 ## Sweeping
 [BOJ 3392 - 화성 지도](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3392) - 세그먼트 트리  

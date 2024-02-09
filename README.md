@@ -78,7 +78,8 @@ study algorithm with C++
 
 ## Stack
 [BOJ 22866 - 탑 보기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/22866)  
-[BOJ 11873 - 최대 직사각형](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11873) - 히스토그램에서 가장 큰 직사각형
+[BOJ 11873 - 최대 직사각형](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11873) - 히스토그램에서 가장 큰 직사각형  
+[BOJ 2104 - 부분배열 고르기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2104) - 히스토그램에서 가장 큰 직사각형(분할정복)
 
 ## 해 구성하기
 [BOJ 24337 - 가희와 탑](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/24337)

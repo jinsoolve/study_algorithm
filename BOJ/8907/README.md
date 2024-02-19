@@ -68,3 +68,6 @@ int main(void) {
     return 0;
 }
 ```
+
+### 참고
+https://rhrnald.tistory.com/4

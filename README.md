@@ -63,7 +63,8 @@ study algorithm with C++
 ## 이분 탐색
 [BOJ 2110 - 공유기 설치](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2110)  
 [BOJ 1637 - 날카로운 눈](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1637)  
-[BOJ 3090 - 차이를 최소로](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3090)
+[BOJ 3090 - 차이를 최소로](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3090)  
+[leetcode 4 - Median of Two Sorted Arrays](https://github.com/jinsoolve/study_algorithm/tree/main/leetcode/4)
 
 ## 그래프 탐색(이론)
 [BOJ 4179 - 불!](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/4179)  

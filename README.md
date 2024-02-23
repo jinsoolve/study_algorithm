@@ -108,13 +108,13 @@ study algorithm with C++
 [BOJ 10220 - Self Representing Seq](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10220) - 애드 혹  
 [BOJ 5615 - 아파트 임대](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/5615) - 정수론, Miller-Rabin 소수 판별법  
 [BOJ 11439 - 이항 계수 5](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11439) - 정수론, 소수판정, 소인수분해  
-[BOJ 8907 - 네온 사인](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/8907) - 정수론
+[BOJ 8907 - 네온 사인](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/8907) - 정수론  
+[codeforces 1923/C - Find B](https://github.com/jinsoolve/study_algorithm/tree/main/codeforces/1923/C)
 
 ## 구현
 [BOJ 14891 - 톱니바퀴](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14891)  
 [BOJ 3111 - 검열](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3111)  
-[BOJ 15683 - 감시](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/15683) - 시뮬레이션  
-[codeforces 1923/A - Moving Chips](https://github.com/jinsoolve/study_algorithm/tree/main/codeforces/1923/A) 
+[BOJ 15683 - 감시](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/15683) - 시뮬레이션
 
 ## deque
 [BOJ 26094 - 더 어려운 스케줄링](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/26094)

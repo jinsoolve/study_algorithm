@@ -113,7 +113,8 @@ study algorithm with C++
 ## 구현
 [BOJ 14891 - 톱니바퀴](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14891)  
 [BOJ 3111 - 검열](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3111)  
-[BOJ 15683 - 감시](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/15683) - 시뮬레이션
+[BOJ 15683 - 감시](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/15683) - 시뮬레이션  
+[codeforces 1923/A - Moving Chips](https://github.com/jinsoolve/study_algorithm/tree/main/codeforces/1923/A) 
 
 ## deque
 [BOJ 26094 - 더 어려운 스케줄링](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/26094)

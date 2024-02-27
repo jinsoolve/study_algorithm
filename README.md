@@ -222,3 +222,6 @@ study algorithm with C++
 
 ## 위상정렬(Topological Sort)
 [BOJ 2848 - 알고스팟어](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2848)
+
+## 자료구조 
+[leetcode 715 - Range Module](https://github.com/jinsoolve/study_algorithm/tree/main/leetcode/715) - map 자료구조

@@ -27,15 +27,26 @@ using pii = pair<int, int>;
 using pll = pair<ll, ll>;
 using ti3 = tuple<int, int, int>;
 
-int n, q;
-vector<int> cnt;
-vector<ll> psum;
+const int mxn = 1e6;
+int m, n;
+vector<int> p, idx, dp;
+vector<bool> visited;
+stack<int> s;
+int ans = 0;
 
-string solve(int l, int r) {
-    if(l == r) return "NO";
-    ll minVal = 2ll*(cnt[r]-cnt[l-1]) + ( r-l+1 - (cnt[r]-cnt[l-1]) ); // all 1s -> 2, other numbers -> 1
-    if(psum[r]-psum[l-1] < minVal) return "NO";
-    else return "YES";
+int dfs(int u) {
+    int &ret = dp[idx[u]];
+    if(ret != -1) return ret;
+    if(visited[u]) { // new cycle
+        while(!s.empty() && s.top() != u) {
+            idx[s.top()] = u;
+            s.pop();
+        }
+        return 0;
+    }
+    visited[u] = true;
+    s.emplace(u);
+    return ret = dfs(p[u]) + 1;
 }
 
 int main(void) {
@@ -43,24 +54,25 @@ int main(void) {
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    int tc; cin >> tc;
-    while(tc--) {
-        cin >> n >> q;
+    cin >> m >> n;
 
-        cnt = vector<int>(n+1,0);
-        psum = vector<ll>(n+1, 0);
-        for(int i=1; i<=n; i++) {
-            ll x; cin >> x;
-            psum[i] = psum[i-1] + x;
-            cnt[i] = cnt[i-1] + (x==1);
-        }
+    p = vector<int>(n);
+    idx = vector<int>(n);
+    for(int i=0; i<n; i++) idx[i] = p[i] = i;
+    dp = vector<int>(n, -1);
+    visited = vector<bool>(n, false);
 
-        while(q--) {
-            int l, r; cin >> l >> r;
-            cout << solve(l,r) << endl;
-        }
+    while(m--) {
+        int u, v; cin >> u >> v;
+        p[u] = v;
     }
+    for(int i=0; i<n; i++) {
+        if(visited[i]) continue;
 
+        while(!s.empty()) s.pop();
+        ans = max(ans, dfs(i));
+    }
+    cout << ans << endl;
 
     return 0;
 }

@@ -189,7 +189,8 @@ study algorithm with C++
 ## 최소 공통 조상(LCA)
 [BOJ 15480 - LCA와 쿼리](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/15480)    
 [BOJ 13511 - 트리와 쿼리 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13511)  
-[BOJ 13869 - Sky Tax](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13869)
+[BOJ 13869 - Sky Tax](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13869)  
+[BOJ 26113 - Two Choreographies](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/26113) - 그래프 탐색, 트리, 비둘기집 원리
 
 ## 필승 전략 게임(게임 이론)
 [BOJ 11694 - 님 게임](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11694) - 님게임  

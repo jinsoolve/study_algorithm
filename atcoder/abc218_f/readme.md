@@ -1,3 +1,16 @@
+## [atcoder abc218_f - Blocked Roads](https://atcoder.jp/contests/abc218/tasks/abc218_f)
+
+### 알고리즘
+- BFS
+- 그래프 탐색
+
+### 풀이
+1. 최단거리를 찾는다. 이때, 최단 거리에 가기까지의 path를 기록한다.
+2. 최단거리는 최대 N-1개의 edge로 이루어져 있다. 최단거리로 갈 때 사용하지 않는 edge들의 정답은 이 최단거리가 된다. -> O(N+M)
+3. 최단거리로 사용된 edge들에 대한 정답은 최단거리로 계산한다. -> O(N*(N+M))이 된다.
+4. 따라서 최종시칸 복잡도는 O(N(N+M))이 된다. 대충 400^3 = 약 6e7 정도이다. 따라서 시간 안에 솔브를 받을 수 있다.
+
+```c++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -86,3 +99,4 @@ int main(void) {
 
     return 0;
 }
+```

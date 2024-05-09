@@ -113,7 +113,8 @@ study algorithm with C++
 [BOJ 5615 - 아파트 임대](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/5615) - 정수론, Miller-Rabin 소수 판별법  
 [BOJ 11439 - 이항 계수 5](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11439) - 정수론, 소수판정, 소인수분해  
 [BOJ 8907 - 네온 사인](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/8907) - 정수론  
-[codeforces 1923/C - Find B](https://github.com/jinsoolve/study_algorithm/tree/main/codeforces/1923/C)
+[codeforces 1923/C - Find B](https://github.com/jinsoolve/study_algorithm/tree/main/codeforces/1923/C)  
+[atcoder abc319_e - Bus Stops](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc319_e) - 최소공배수
 
 ## 구현
 [BOJ 14891 - 톱니바퀴](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14891)  

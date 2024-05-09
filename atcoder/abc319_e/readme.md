@@ -8,7 +8,7 @@
 $x_i$를 i 버스 정류장에 도달한 시간이라 하자.  
 
 $$
-x_(i+1) = \lceil \frac{x_i}{P_i} \rceil \times P_i + T_I 
+x_{i+1} = \lceil \frac{x_i}{P_i} \rceil \times P_i + T_I 
 $$
 
 위와 같은 공식에 의해 우리는 도착시간을 구할 수 있다. 하지만 O(NQ)는 시간초과가 된다.  

@@ -1,3 +1,30 @@
+## [atcoder abc319 - E : Bus Stops](https://atcoder.jp/contests/abc319/tasks/abc319_e)
+
+### 알고리즘
+- 최소공배수
+- dp
+
+### 풀이
+$x_i$를 i 버스 정류장에 도달한 시간이라 하자.  
+
+$$
+x_(i+1) = \lceil \frac{x_i}{P_i} \rceil \times P_i + T_I 
+$$
+
+위와 같은 공식에 의해 우리는 도착시간을 구할 수 있다. 하지만 O(NQ)는 시간초과가 된다.  
+
+그러나, 생각해보면 $P_i$는 1 ~ 8 이고 결국 lcm(1,2,...,8) = 840 마다 걸리는 시간이 반복된다는 것을 알 수 있다.  
+
+$$
+(x + 840n) % P_i = x % P_i
+$$
+
+그 이유는 버스정류장마다 버려지는 시간들은 mod $P_i$되고 모든 i들에 대해서 합치면 mod $lcm(P_1, .. P_N)$ 이 된다는 것을 알 수 있다.  
+따라서 mod 840이 되고 총 걸리는 시간은 840마다 반복된다는 것을 알 수 있다.
+
+이를 이용하면 각 쿼리를 O(1)마다 해결할 수 있다. 즉 시간복잡도는 O(840*N + Q)가 된다.
+
+```c++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -64,3 +91,4 @@ int main(void) {
 
     return 0;
 }
+```

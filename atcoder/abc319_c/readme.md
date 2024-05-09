@@ -1,3 +1,20 @@
+## [atcoder abc319 - C : False Hope](https://atcoder.jp/contests/abc319/tasks/abc319_c)
+
+### 알고리즘
+- 구현
+- 순열
+
+### 풀이
+생각 자체는 쉬우나, 구현하는 부분이 조금 까다로울 수 있다. 
+
+order[i] := grid[i]가 보여지는 순서  
+vector<tuple> line에는 가능한 모든 라인들을 집어 넣자
+
+next_permutation을 이용해서 가능한 모든 순서 중에서 문제에서 말한 조건에 만족하는 경우들의 개수를 구한 후, 9! 로 나누면 정답이다.
+
+즉, 한 주어진 순서에 대해서 모든 line이 조건을 만족하는 지 체크하는 문제다.
+
+```c++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -64,3 +81,4 @@ int main(void) {
 
     return 0;
 }
+```

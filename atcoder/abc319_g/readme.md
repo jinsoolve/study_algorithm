@@ -1,3 +1,33 @@
+## [atcoder 319-G Counting Shortest Paths](https://atcoder.jp/contests/abc319/tasks/abc319_g)
+
+### 알고리즘
+- BFS
+- DP
+
+### 풀이
+1. BFS를 통해서 dis[v] := 1->v 까지의 거리를 구한다.
+2. num[u] := u까지의 최소경로의 number of paths 라 하자.  
+   이떄, dis[u]+1 == dis[v]이며 u->v가 존재하는 경우에 대해서 num[v] += num[u]를 다 해주면 결과를 구할 수 있다.
+
+하지만 2번의 경우, $O(N^2)$ 이므로 TLE가 된다.  
+
+이번엔 unvisited vertex를 업데이트하는 방식으로 해결해 보자.  
+![img.png](img.png)
+ways[u] := 1->u의 (최단 경로일 때) 가능한 모든 경로의 수  
+
+1. BFS를 통해서 unvisited vertex list(uv)를 계속 업데이트 시켜준다.
+   1. 거리 d에서 정점 u를 처음으로(최단 경로로) 방문했다고 하자.
+   2. blocked edges(be)를 체크해서 u->v로의 edge가 가능하다면 uv에서 v를 제거해 줄 수 있다. 그리고 다음 dist에서 v를 처음 방문했다고 볼 수 있다.
+   3. 1~2과정은 각 정점 u의 be들이 뭐가 있는지 한 번씩만 체크하므로 O(M)이 된다.
+2. dp를 통해서 number of paths(num)을 계속 업데이트 시켜준다.
+   1. 거리 d에서의 처음 방문 정점들 중 하나를 v라 하자.
+   2. num[v] = tot[dis[v]-1] -> 즉, dis[v]-1 거리(바로 이전 거리)에서의 방문 점점들의 모든 num들의 합인 tot[dis[v]-1]을 더해준다.
+   3. u -> v 에 대해서 1)unblocked edge이면서, 2)dis[u]+1 == dis\[v\](바로 이전에 방문한 정점)이라면 num[v] -= num[u]를 해준다.
+   4. 1~3 과정은 각 정점에 대해서 해당 정점의 be들을 체크하기 떄문에 O(N+M)이 될 것으로 예상된다.
+3. num[N]이 정답이 된다.
+
+### 코드
+```c++
 #include <iostream>
 #include <algorithm>
 #include <cmath>
@@ -92,3 +122,4 @@ int main(void) {
 
     return 0;
 }
+```

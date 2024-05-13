@@ -12,7 +12,7 @@
 하지만 2번의 경우, $O(N^2)$ 이므로 TLE가 된다.  
 
 이번엔 unvisited vertex를 업데이트하는 방식으로 해결해 보자.  
-![img.png](img.png)
+![img.png](img.png)  
 ways[u] := 1->u의 (최단 경로일 때) 가능한 모든 경로의 수  
 
 1. BFS를 통해서 unvisited vertex list(uv)를 계속 업데이트 시켜준다.

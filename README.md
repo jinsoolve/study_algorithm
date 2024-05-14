@@ -58,7 +58,8 @@ study algorithm with C++
 [BOJ 1413 - 박스 안의 열쇠](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1413) - 조합론  
 [BOJ 4243 - 보안 업체](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/4243)  
 [BOJ 2647 - 검은점과 하얀점 연결](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2647) - 분할 정복  
-[BOJ 2507 - 공주 구하기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2507) - 바이토닉 투어
+[BOJ 2507 - 공주 구하기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2507) - 바이토닉 투어  
+[atcoder abc344_f - Earn to Advance](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc344_f)
 
 ## 이분 탐색
 [BOJ 2110 - 공유기 설치](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2110)  

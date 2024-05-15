@@ -59,7 +59,8 @@ study algorithm with C++
 [BOJ 4243 - 보안 업체](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/4243)  
 [BOJ 2647 - 검은점과 하얀점 연결](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2647) - 분할 정복  
 [BOJ 2507 - 공주 구하기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2507) - 바이토닉 투어  
-[atcoder abc344_f - Earn to Advance](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc344_f)
+[atcoder abc344_f - Earn to Advance](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc344_f)  
+[atcoder abc341_f - Breakdown](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc341_f) - knapsack
 
 ## 이분 탐색
 [BOJ 2110 - 공유기 설치](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2110)  
@@ -116,7 +117,8 @@ study algorithm with C++
 [BOJ 11439 - 이항 계수 5](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11439) - 정수론, 소수판정, 소인수분해  
 [BOJ 8907 - 네온 사인](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/8907) - 정수론  
 [codeforces 1923/C - Find B](https://github.com/jinsoolve/study_algorithm/tree/main/codeforces/1923/C)  
-[atcoder abc319_e - Bus Stops](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc319_e) - 최소공배수
+[atcoder abc319_e - Bus Stops](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc319_e) - 최소공배수  
+[atcoder abc341_g - Only one of two](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc341_g) - 최소공배수
 
 ## 구현
 [BOJ 14891 - 톱니바퀴](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14891)  

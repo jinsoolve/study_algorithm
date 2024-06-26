@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "c087fd3d5ad0d2f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "68e4a6536a870152",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e694dbe9907c3ab1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BOJ/1/readme.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1a0fe1b63f26db98",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2933be5bab62bb9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7c1eac588a55ae17",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "39ae8855836746c0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dfbfc79b3ad8dbf1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7ff448468623d5e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "48d44873b26415c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c33af515e9816455",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "BOJ/1/readme.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "98926aad14414eba",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "BOJ/1/readme.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "01b03f7b562c2916",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "61771ab0c77fe194",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "BOJ/1/readme.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "e694dbe9907c3ab1",
+  "lastOpenFiles": [
+    "BOJ/1020/README.md",
+    "BOJ/1/readme.md",
+    "BOJ/1",
+    "BOJ/29199/readme.md",
+    "study_algorithm/tmp.cpp",
+    "study_algorithm/main.cpp",
+    "study_algorithm/leetcode/715/README.md",
+    "study_algorithm/leetcode/4/README.md",
+    "study_algorithm/leetcode/715",
+    "study_algorithm/leetcode/4",
+    "study_algorithm/leetcode",
+    "study_algorithm/codeforces/1923/D/README.md",
+    "study_algorithm/codeforces/1923/D/D.cpp",
+    "study_algorithm/codeforces/1923/C/README.md",
+    "study_algorithm/codeforces/1923/C/C.cpp",
+    "study_algorithm/codeforces/1923/B/README.md",
+    "study_algorithm/codeforces/1923/B/B.cpp",
+    "study_algorithm/codeforces/1923/A/README.md",
+    "study_algorithm/codeforces/1923/A/A.cpp",
+    "study_algorithm/atcoder/abc345_d/README.md",
+    "study_algorithm/atcoder/abc344_f/readme.md",
+    "study_algorithm/atcoder/abc341_f/readme.md",
+    "study_algorithm/atcoder/abc341_d/readme.md",
+    "study_algorithm/atcoder/abc319_g/readme.md",
+    "study_algorithm/atcoder/abc319_g/img.png",
+    "study_algorithm/atcoder/abc319_f/readme.md",
+    "study_algorithm/atcoder/abc319_e/readme.md",
+    "study_algorithm/atcoder/abc319_c/readme.md",
+    "study_algorithm/atcoder/abc313_e/readme.md",
+    "study_algorithm/atcoder/abc218_f/readme.md",
+    "study_algorithm/README.md",
+    "study_algorithm/BOJ/9938/README.md",
+    "study_algorithm/BOJ/9577/README.md",
+    "study_algorithm/BOJ/9525/README.md",
+    "study_algorithm/BOJ/9345/README.md",
+    "study_algorithm/BOJ/9250/README.md",
+    "study_algorithm/BOJ/9249/README.md",
+    "study_algorithm/BOJ/1866/odd_graph.png",
+    "study_algorithm/BOJ/1866/even_graph.png",
+    "study_algorithm/BOJ/1492/img.png"
+  ]
+}

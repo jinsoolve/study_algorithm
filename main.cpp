@@ -21,25 +21,22 @@ const int INF = numeric_limits<int>::max();
 const ll LNF = numeric_limits<ll>::max();
 
 int n;
-vector<ll> a, psum, dp;
-
-ll sol(int i) {
-    if(i == 1) return max(0LL, psum[i]);
-    ll &ret = dp[i];
-    if(ret != -1) return ret;
-    return ret = max(sol(i-1), psum[i] - sol(i-1));
-}
+vector<pii> a;
+vector<int> lis;
 
 void solve() {
-    int n; cin >> n;
-    a.resize(n+1, 0); psum.resize(n+1, 0);
-    For1(i,n) {
-        cin >> a[i];
-        psum[i] = psum[i-1] + a[i];
+    cin >> n; a.resize(n);
+    For(i,n) {
+        cin >> a[i].x >> a[i].y;
+        if(a[i].x > a[i].y) swap(a[i].x, a[i].y);
     }
-
-    dp.resize(n+1, -1);
-    cout << sol(n);
+    sort(all(a));
+    for(auto &[x,y] : a) {
+        auto it = upper_bound(all(lis), y);
+        if(it == lis.end()) lis.emplace_back(y);
+        else *it = y;
+    }
+    cout << lis.size() << endl;
 }
 
 int main(void) {

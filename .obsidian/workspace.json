@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "68e4a6536a870152",
+        "id": "6b3fd81fcf8db40f",
         "type": "tabs",
         "children": [
           {
-            "id": "e694dbe9907c3ab1",
+            "id": "8d6b807fd99831f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,10 +146,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "e694dbe9907c3ab1",
+  "active": "7c1eac588a55ae17",
   "lastOpenFiles": [
-    "atcoder/abc360_e/readme.md",
     "README.md",
+    "atcoder/abc360_e/readme.md",
     "study_algorithm/atcoder/abc360_e/readme.md",
     "study_algorithm/atcoder/abc360_e",
     "BOJ/1020/README.md",

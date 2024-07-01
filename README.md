@@ -99,58 +99,58 @@ study algorithm with C++
 
 ## Stack
 
-[BOJ 22866 - 탑 보기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/22866)
-[BOJ 11873 - 최대 직사각형](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11873) - 히스토그램에서 가장 큰 직사각형
-[BOJ 2104 - 부분배열 고르기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2104) - 히스토그램에서 가장 큰 직사각형(분할정복)
+[BOJ 22866 - 탑 보기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/22866)  
+[BOJ 11873 - 최대 직사각형](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11873) - 히스토그램에서 가장 큰 직사각형  
+[BOJ 2104 - 부분배열 고르기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2104) - 히스토그램에서 가장 큰 직사각형(분할정복)  
 
 ## 해 구성하기
 
-[BOJ 24337 - 가희와 탑](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/24337)
+[BOJ 24337 - 가희와 탑](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/24337)  
 
 ## knapsack
 
-[BOJ 1943 - 동전 분배](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1943)
+[BOJ 1943 - 동전 분배](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1943)  
 
 ## 최단경로
 
-[BOJ 24042 - 횡단보도](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/24042)
+[BOJ 24042 - 횡단보도](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/24042)  
 
 ## 문자열
 
-[BOJ 11479 - 서로 다른 부분 문자열의 개수 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11479)
-[BOJ 9248 - Suffix Array](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9248)
-[BOJ 1605 - 반복 부분문자열](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1605)
-[BOJ 1893 - 시저 암호](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1893) - kmp
-[BOJ 13506 - 카멜레온 부분 문자열](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13506) - kmp
-[BOJ 16163 - #15164번_제보](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/16163) - manacher
-[BOJ 9249 - 최장 공통 문자열](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9249) - sa & lcp
-[BOJ 13264 - 접미사 배열 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13264) - sa
+[BOJ 11479 - 서로 다른 부분 문자열의 개수 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11479)  
+[BOJ 9248 - Suffix Array](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9248)  
+[BOJ 1605 - 반복 부분문자열](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1605)  
+[BOJ 1893 - 시저 암호](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1893) - kmp  
+[BOJ 13506 - 카멜레온 부분 문자열](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13506) - kmp  
+[BOJ 16163 - #15164번_제보](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/16163) - manacher  
+[BOJ 9249 - 최장 공통 문자열](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9249) - sa & lcp  
+[BOJ 13264 - 접미사 배열 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13264) - sa  
 
 ## 수학
 
-[BOJ 20188 - 등산 마니아](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/20188)
-[BOJ 1492 - 합](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1492)
-[BOJ 1214 - 쿨한 물건 구매](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1214) - 정수론
-[BOJ 10220 - Self Representing Seq](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10220) - 애드 혹
-[BOJ 5615 - 아파트 임대](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/5615) - 정수론, Miller-Rabin 소수 판별법
-[BOJ 11439 - 이항 계수 5](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11439) - 정수론, 소수판정, 소인수분해
-[BOJ 8907 - 네온 사인](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/8907) - 정수론
-[codeforces 1923/C - Find B](https://github.com/jinsoolve/study_algorithm/tree/main/codeforces/1923/C)
-[atcoder abc319_e - Bus Stops](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc319_e) - 최소공배수
-[atcoder abc341_g - Only one of two](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc341_g) - 최소공배수
-[atcoder abc360_e - Random Swaps of Balls](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc360_e) - 확률, 페르마 소정리
+[BOJ 20188 - 등산 마니아](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/20188)  
+[BOJ 1492 - 합](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1492)  
+[BOJ 1214 - 쿨한 물건 구매](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1214) - 정수론  
+[BOJ 10220 - Self Representing Seq](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10220) - 애드 혹  
+[BOJ 5615 - 아파트 임대](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/5615) - 정수론, Miller-Rabin 소수 판별법  
+[BOJ 11439 - 이항 계수 5](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/11439) - 정수론, 소수판정, 소인수분해  
+[BOJ 8907 - 네온 사인](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/8907) - 정수론  
+[codeforces 1923/C - Find B](https://github.com/jinsoolve/study_algorithm/tree/main/codeforces/1923/C)  
+[atcoder abc319_e - Bus Stops](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc319_e) - 최소공배수  
+[atcoder abc341_g - Only one of two](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc341_g) - 최소공배수  
+[atcoder abc360_e - Random Swaps of Balls](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc360_e) - 확률, 페르마 소정리  
 
 ## 구현
 
-[BOJ 14891 - 톱니바퀴](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14891)
-[BOJ 3111 - 검열](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3111)
-[BOJ 15683 - 감시](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/15683) - 시뮬레이션[](https://)
-[atcoder abc319_c - False Hope](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc319_c)
-[atcoder abc319_f - Fighter Takahashi](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc319_f) - 시뮬레이션, DP, 비트마스크
+[BOJ 14891 - 톱니바퀴](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14891)  
+[BOJ 3111 - 검열](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3111)  
+[BOJ 15683 - 감시](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/15683) - 시뮬레이션  
+[atcoder abc319_c - False Hope](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc319_c)  
+[atcoder abc319_f - Fighter Takahashi](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc319_f) - 시뮬레이션, DP, 비트마스크  
 
 ## deque
 
-[BOJ 26094 - 더 어려운 스케줄링](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/26094)
+[BOJ 26094 - 더 어려운 스케줄링](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/26094)  
 
 ## 세그먼트 트리
 

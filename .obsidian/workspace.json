@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "atcoder/abc360_e/readme.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "atcoder/abc360_e/readme.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "atcoder/abc360_e/readme.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "atcoder/abc360_e/readme.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "e694dbe9907c3ab1",
   "lastOpenFiles": [
+    "atcoder/abc360_e/readme.md",
     "BOJ/1020/README.md",
     "BOJ/1/readme.md",
     "BOJ/1",
@@ -184,7 +185,6 @@
     "study_algorithm/BOJ/9525/README.md",
     "study_algorithm/BOJ/9345/README.md",
     "study_algorithm/BOJ/9250/README.md",
-    "study_algorithm/BOJ/9249/README.md",
     "study_algorithm/BOJ/1866/odd_graph.png",
     "study_algorithm/BOJ/1866/even_graph.png",
     "study_algorithm/BOJ/1492/img.png"

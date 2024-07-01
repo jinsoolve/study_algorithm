@@ -23,79 +23,79 @@ study algorithm with C++
 
 ## 체스판
 
-[BOJ 2873 - 롤러코스터](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2873)
+[BOJ 2873 - 롤러코스터](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2873)  
 
 ## Union-Find
 
-[BOJ 3830 - 교수님은 기다리지 않는다](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3830)
-[BOJ 22954 - 그래프 트리 분할](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/22954)
-[BOJ 9938 - 방 청소](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9938)
-[BOJ 17469 - 트리의 색깔과 쿼리](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/17469) - Small to Large Trick
+[BOJ 3830 - 교수님은 기다리지 않는다](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3830)  
+[BOJ 22954 - 그래프 트리 분할](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/22954)  
+[BOJ 9938 - 방 청소](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9938)  
+[BOJ 17469 - 트리의 색깔과 쿼리](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/17469) - Small to Large Trick  
 
 ## 해 구성하기
 
-[BOJ 1201 - NMK](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1201)
+[BOJ 1201 - NMK](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1201)  
 
 ## 투 포인터
 
-[BOJ 13144 - List of Unique Numbers](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13144)
+[BOJ 13144 - List of Unique Numbers](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13144)  
 
 ## Trie
 
-[BOJ 2179 - 비슷한 단어](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2179)
-[BOJ 19585 - 전설](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/19585)
+[BOJ 2179 - 비슷한 단어](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2179)  
+[BOJ 19585 - 전설](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/19585)  
 
 ## 아호-코라식(Aho-Corasick)
 
-[BOJ 9250 - 문자열 집합 판별](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9250)
+[BOJ 9250 - 문자열 집합 판별](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/9250)  
 
 ## Dynamic Programming
 
-[BOJ 2631 - 줄세우기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2631)
-[BOJ 2169 - 로봇 조종하기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2169)
-[BOJ 26093 - 고양이 목에 리본 달기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/26093)
-[BOJ 2673 - 교차하지 않는 원의 현들의 최대집합](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2673)
-[BOJ 13974 - 파일 합치기 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13974)
-[BOJ 10803 - 정사각형 만들기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10803)
-[BOJ 1020 - 디지털 카운터](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1020)
-[BOJ 1023 - 괄호 문자열](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1023)
-[BOJ 1657 - 두부장수 장홍준](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1657) - 비트마스킹
-[BOJ 1146 - 지그재그 서기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1146)
-[BOJ 1866 - 택배](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1866)
-[BOJ 1514 - 자물쇠](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1514)
-[BOJ 17613 - 점프](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/17613) - 분할 정복
-[BOJ 3012 - 올바른 괄호 문자열](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3012) - 분할 정복
-[BOJ 1413 - 박스 안의 열쇠](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1413) - 조합론
-[BOJ 4243 - 보안 업체](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/4243)
-[BOJ 2647 - 검은점과 하얀점 연결](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2647) - 분할 정복
-[BOJ 2507 - 공주 구하기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2507) - 바이토닉 투어
-[atcoder abc344_f - Earn to Advance](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc344_f)
-[atcoder abc341_f - Breakdown](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc341_f) - knapsack
+[BOJ 2631 - 줄세우기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2631)  
+[BOJ 2169 - 로봇 조종하기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2169)  
+[BOJ 26093 - 고양이 목에 리본 달기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/26093)  
+[BOJ 2673 - 교차하지 않는 원의 현들의 최대집합](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2673)  
+[BOJ 13974 - 파일 합치기 2](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/13974)  
+[BOJ 10803 - 정사각형 만들기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/10803)  
+[BOJ 1020 - 디지털 카운터](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1020)  
+[BOJ 1023 - 괄호 문자열](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1023)  
+[BOJ 1657 - 두부장수 장홍준](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1657) - 비트마스킹  
+[BOJ 1146 - 지그재그 서기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1146)  
+[BOJ 1866 - 택배](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1866)  
+[BOJ 1514 - 자물쇠](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1514)  
+[BOJ 17613 - 점프](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/17613) - 분할 정복  
+[BOJ 3012 - 올바른 괄호 문자열](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3012) - 분할 정복  
+[BOJ 1413 - 박스 안의 열쇠](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1413) - 조합론  
+[BOJ 4243 - 보안 업체](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/4243)  
+[BOJ 2647 - 검은점과 하얀점 연결](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2647) - 분할 정복  
+[BOJ 2507 - 공주 구하기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2507) - 바이토닉 투어  
+[atcoder abc344_f - Earn to Advance](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc344_f)   
+[atcoder abc341_f - Breakdown](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc341_f) - knapsack  
 
 ## 이분 탐색
 
-[BOJ 2110 - 공유기 설치](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2110)
-[BOJ 1637 - 날카로운 눈](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1637)
-[BOJ 3090 - 차이를 최소로](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3090)
-[leetcode 4 - Median of Two Sorted Arrays](https://github.com/jinsoolve/study_algorithm/tree/main/leetcode/4)
-[codeforces 1923/D - Slimes](https://github.com/jinsoolve/study_algorithm/tree/main/codeforces/1923/D)
+[BOJ 2110 - 공유기 설치](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/2110)  
+[BOJ 1637 - 날카로운 눈](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1637)  
+[BOJ 3090 - 차이를 최소로](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3090)  
+[leetcode 4 - Median of Two Sorted Arrays](https://github.com/jinsoolve/study_algorithm/tree/main/leetcode/4)  
+[codeforces 1923/D - Slimes](https://github.com/jinsoolve/study_algorithm/tree/main/codeforces/1923/D)  
 
 ## 그래프 탐색(이론)
 
-[BOJ 4179 - 불!](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/4179)
-[BOJ 16930 - 달리기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/16930)
-[BOJ 1185 - 유럽여행](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1185) - MST(최소 스패닝 트리)
-[BOJ 15972 - 물탱크](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/15972) - 다익스트라 알고리즘
-[BOJ 1602 - 도망자 원숭이](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1602) - 플로이드-워셜 알고리즘
-[BOJ 25948 - Island Tours](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/25948) - dfs, dp
-[BOJ 26106 - Forbidden Turns](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/26106) - 다익스트라 알고리즘, map, set
-[atcoder abc218_f - Blocked Roads](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc218_f) - bfs
-[atcoder abc319_g - Counting Shortest Paths](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc319_g) - bfs, dp
+[BOJ 4179 - 불!](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/4179)  
+[BOJ 16930 - 달리기](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/16930)  
+[BOJ 1185 - 유럽여행](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1185) - MST(최소 스패닝 트리)  
+[BOJ 15972 - 물탱크](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/15972) - 다익스트라 알고리즘    
+[BOJ 1602 - 도망자 원숭이](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/1602) - 플로이드-워셜 알고리즘  
+[BOJ 25948 - Island Tours](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/25948) - dfs, dp  
+[BOJ 26106 - Forbidden Turns](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/26106) - 다익스트라 알고리즘, map, set  
+[atcoder abc218_f - Blocked Roads](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc218_f) - bfs  
+[atcoder abc319_g - Counting Shortest Paths](https://github.com/jinsoolve/study_algorithm/tree/main/atcoder/abc319_g) - bfs, dp  
 
 ## 좌표 압축
 
-[BOJ 14658 - 하늘에서 별똥별이 빗발친다](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14658)
-[BOJ 3392 - 화성 지도](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3392)
+[BOJ 14658 - 하늘에서 별똥별이 빗발친다](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/14658)  
+[BOJ 3392 - 화성 지도](https://github.com/jinsoolve/study_algorithm/tree/main/BOJ/3392)  
 
 ## Stack
 

@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "6e6fcab9eb475f30",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "60ad3668ea4332ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "atcoder/abc360_e/readme.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"

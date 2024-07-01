@@ -238,7 +238,7 @@ study algorithm with C++
 
 [atcoder abc341_g - Only one of two](atcoder/abc341_g/readme.md) - 최소공배수
 
-[atcoder abc360_e - Random Swaps of Balls](atcoder/abc360_e/readme.md/readme.md) - 확률, 페르마 소정리
+[atcoder abc360_e - Random Swaps of Balls](atcoder/abc360_e/readme.md) - 확률, 페르마 소정리
 
   
 

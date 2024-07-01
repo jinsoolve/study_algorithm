@@ -482,6 +482,4 @@ study algorithm with C++
 
 ## 백트래킹(브루트포스)
 
-  
-
-[Atcoder_ABC345_D - Tiling](atcoder/abc345_D/readme.md)
+[Atcoder_ABC345_D - Tiling](atcoder/abc345_d/readme.md)

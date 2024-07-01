@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "436bb2d575f042fa",
+        "id": "1b9cb8f51911721c",
         "type": "tabs",
         "children": [
           {
-            "id": "b58264d7be176c60",
+            "id": "41c54069817660e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "BOJ/2507/readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "BOJ/2507/readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "BOJ/2507/readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "BOJ/2507/readme.md"
               }
             }
           }
@@ -146,45 +146,45 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b58264d7be176c60",
+  "active": "41c54069817660e5",
   "lastOpenFiles": [
-    "BOJ/13547/README.md",
-    "README.md",
-    "BOJ/13547.md",
-    "BOJ/11694.md",
-    "atcoder/abc360_e/readme.md",
-    "study_algorithm/atcoder/abc360_e/readme.md",
+    "readme.md",
+    "leetcode/4/readme.md",
+    "leetcode/715/readme.md",
+    "codeforces/1923/B/readme.md",
+    "codeforces/1923/D/readme.md",
+    "codeforces/1923/C/readme.md",
+    "codeforces/1923/A/readme.md",
+    "BOJ/9240/readme.md",
+    "BOJ/9249/readme.md",
+    "BOJ/17408/readme.md",
+    "BOJ/15967/readme.md",
+    "BOJ/13869/readme.md",
+    "BOJ/18227/readme.md",
+    "BOJ/9248/readme.md",
+    "BOJ/5012/readme.md",
+    "BOJ/2631/readme.md",
+    "BOJ/24042/readme.md",
+    "BOJ/15683/readme.md",
+    "BOJ/13925/readme.md",
+    "BOJ/3830/readme.md",
+    "BOJ/15480/readme.md",
+    "BOJ/13511/readme.md",
+    "BOJ/13144/readme.md",
+    "BOJ/13544/readme.md",
+    "BOJ/2570/readme.md",
+    "BOJ/4243/readme.md",
     "study_algorithm/atcoder/abc360_e",
-    "BOJ/1020/README.md",
-    "BOJ/1/readme.md",
     "BOJ/1",
-    "BOJ/29199/readme.md",
     "study_algorithm/tmp.cpp",
     "study_algorithm/main.cpp",
-    "study_algorithm/leetcode/715/README.md",
-    "study_algorithm/leetcode/4/README.md",
     "study_algorithm/leetcode/715",
     "study_algorithm/leetcode/4",
     "study_algorithm/leetcode",
-    "study_algorithm/codeforces/1923/D/README.md",
     "study_algorithm/codeforces/1923/D/D.cpp",
-    "study_algorithm/codeforces/1923/C/README.md",
     "study_algorithm/codeforces/1923/C/C.cpp",
-    "study_algorithm/codeforces/1923/B/README.md",
     "study_algorithm/codeforces/1923/B/B.cpp",
-    "study_algorithm/codeforces/1923/A/README.md",
-    "study_algorithm/atcoder/abc345_d/README.md",
-    "study_algorithm/atcoder/abc344_f/readme.md",
-    "study_algorithm/atcoder/abc341_f/readme.md",
-    "study_algorithm/atcoder/abc341_d/readme.md",
-    "study_algorithm/atcoder/abc319_g/readme.md",
     "study_algorithm/atcoder/abc319_g/img.png",
-    "study_algorithm/atcoder/abc319_f/readme.md",
-    "study_algorithm/atcoder/abc319_e/readme.md",
-    "study_algorithm/atcoder/abc319_c/readme.md",
-    "study_algorithm/atcoder/abc313_e/readme.md",
-    "study_algorithm/atcoder/abc218_f/readme.md",
-    "study_algorithm/README.md",
     "study_algorithm/BOJ/1866/odd_graph.png",
     "study_algorithm/BOJ/1866/even_graph.png",
     "study_algorithm/BOJ/1492/img.png"

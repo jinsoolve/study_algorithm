@@ -1,6 +1,3 @@
----
-breaks: true
----
 
 # study_algorithm
 

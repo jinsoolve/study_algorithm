@@ -208,7 +208,7 @@ study algorithm with C++
 
 [BOJ 13506 - 카멜레온 부분 문자열](BOJ/13506/readme.md) - kmp
 
-[BOJ 16163 - #15164번_제보](BOJ/16163/readme.md) - manacher
+[BOJ 16163 - 15164번_제보](BOJ/16163/readme.md) - manacher
 
 [BOJ 9249 - 최장 공통 문자열](BOJ/9249/readme.md) - sa & lcp
 

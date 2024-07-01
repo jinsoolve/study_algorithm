@@ -10,13 +10,15 @@
           {
             "id": "41c54069817660e5",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BOJ/2507/readme.md",
+                "file": "readme.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ]
@@ -65,7 +67,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BOJ/2507/readme.md",
+                "file": "readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BOJ/2507/readme.md",
+                "file": "readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BOJ/2507/readme.md"
+                "file": "readme.md"
               }
             }
           }
@@ -148,7 +151,9 @@
   },
   "active": "41c54069817660e5",
   "lastOpenFiles": [
+    "BOJ/24042/readme.md",
     "readme.md",
+    "BOJ/2507/readme.md",
     "leetcode/4/readme.md",
     "leetcode/715/readme.md",
     "codeforces/1923/B/readme.md",
@@ -164,7 +169,6 @@
     "BOJ/9248/readme.md",
     "BOJ/5012/readme.md",
     "BOJ/2631/readme.md",
-    "BOJ/24042/readme.md",
     "BOJ/15683/readme.md",
     "BOJ/13925/readme.md",
     "BOJ/3830/readme.md",
@@ -173,7 +177,6 @@
     "BOJ/13144/readme.md",
     "BOJ/13544/readme.md",
     "BOJ/2570/readme.md",
-    "BOJ/4243/readme.md",
     "study_algorithm/atcoder/abc360_e",
     "BOJ/1",
     "study_algorithm/tmp.cpp",

@@ -1,4 +1,4 @@
-f# study_algorithm
+# study_algorithm
 
 study algorithm with C++
 

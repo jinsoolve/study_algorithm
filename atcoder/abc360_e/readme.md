@@ -6,6 +6,12 @@
 
 ### 풀이
 
+sdfsdf
+sdfsf
+dsfs
+
+adfsd
+sf
 초기에 검정색 공은 첫번째 위치에 있다.
 
 $f^k(i)$를 k번의 operation 후, 검정색 공이 i 위치에 위치할 확률이라고 하자.

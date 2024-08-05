@@ -2,6 +2,9 @@
 
 study algorithm with C++
 
+현재 블로그로 이전해서 글을 올리고 있습니다.   
+https://jinsoolve.github.io
+
 ## 머지소트 트리  
 
 [BOJ 13547 - 수열과 쿼리 5](BOJ/13547/readme.md)

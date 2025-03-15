@@ -2,7 +2,7 @@
 
 study algorithm with C++
 
-현재 [블로그](https://jinsoolve.com)로 이전해서 글을 올리고 있습니다.   
+현재 [블로그](https://www.jinsoolve.com)로 이전해서 글을 올리고 있습니다.   
 
 
 ## 머지소트 트리  

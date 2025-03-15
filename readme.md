@@ -2,8 +2,8 @@
 
 study algorithm with C++
 
-현재 블로그로 이전해서 글을 올리고 있습니다.   
-https://jinsoolve.github.io
+현재 [블로그](https://jinsoolve.com)로 이전해서 글을 올리고 있습니다.   
+
 
 ## 머지소트 트리  
 
